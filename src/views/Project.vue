@@ -1,72 +1,26 @@
 <template>
-	<div>
-		<section class="hero is-medium is-primary is-bold">
-			<div class="hero-body">
-				<div class="container">
-					<h1 class="title is-2">
-						{{project.title}}
-					</h1>
-					<h2 class="subtitle is-4">
-						{{project.snippet}}
-					</h2>
-				</div>
-			</div>
-		</section>
-		<section class="section">
-			<div class="container is-fluid">
-				<div class="columns">
-					<div class="column is-two-thirds">
-						<vue-simple-markdown :source="project.body"></vue-simple-markdown>
-					</div>
-					<div class="column is-one-third">
-						<div class="columns is-multiline">
-							<div class="column is-full" v-for="image in project.images" v-bind:key="image.project">
-								<img :src="image.url"/>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+	<div class="project">
+		<router-view />
+		<router-link to="/" tag="a" class="back">$laquo; Back</router-link>
 	</div>
 </template>
 
-<script>
-	import ProjectsService from '@/services/ProjectsService'
-	export default {
-		name: "project",
-		data() {
-			return{
-				airtableResponse: []
-			}
-		},
-		mounted: function () {
-			let self = this
-			async function getProject() {
-				try{
-					const response = await ProjectsService.getProject(self.$route.params.slug)
-					console.log(response)
-					self.airtableResponse = response.data.records
+<style lang="scss" scoped>
+	.project {
+		max-width: 50vw;
+		margin: 10rem auto;
 
-				}catch(err){
-					console.log(err)
-				}
+		/deep/ {
+			h1 {
+				font-size: 3rem;
+				margin-bottom: .2rem;
+				color: #42b883;
 			}
-			getProject()		  	
-		},
-		computed: {
-			project(){
-				let self = this
-				if (self.airtableResponse[0]){
-					let thisProject = {
-						title: self.airtableResponse[0].fields.Title,
-						snippet: self.airtableResponse[0].fields.Excerpt,
-						images: self.airtableResponse[0].fields.Image,
-						body: self.airtableResponse[0].fields.Body
-					}
-					return thisProject
-				}
+
+			h4 {
+				margin-bottom: 3rem;
+				color: #35495e;
 			}
 		}
-	};
-</script>
+	}
+</style>

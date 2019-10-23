@@ -1,11 +1,24 @@
 import Vue from "vue";
 import Router from "vue-router";
 import Home from "./views/Home.vue";
-import About from "./views/About.vue";
-import Contact from "./views/Contact.vue";
-import Foo from "./components/foo.md";
 
-Vue.use(Router);
+Vue.use(Router)
+
+import ProjectEntries from "./statics/data/project.json";
+
+const projectRoutes = Object.keys(ProjectEntries).map(section => {
+    const children = ProjectEntries[section].map(child => ({
+        path: child.id,
+        name: child.id,
+        component: () => import(`./markdowns/${section}/${child.id}.md`)
+    }))
+    return {
+        path: `/${section}`,
+        name: section,
+        component: () => import("./views/Project.vue"),
+        children
+    }
+})
 
 export default new Router({
     mode: "history",
@@ -16,20 +29,6 @@ export default new Router({
             name: "home",
             component: Home
         },
-        {
-            path: "/about",
-            name: "about",
-            component: About
-        },
-        {
-            path: "/contact",
-            name: "contact",
-            component: Contact
-        },
-        {
-            path: "/foo",
-            name: "foo",
-            component: Foo
-        }
+        ...projectRoutes
     ]
 });

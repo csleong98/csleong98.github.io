@@ -27,7 +27,7 @@
           <router-link to="/about" class="navbar-item">
             About
           </router-link>
-          <router-link to="/projects" class="navbar-item">
+          <router-link to="/project" class="navbar-item">
             Projects
           </router-link>
           <router-link to="/contact" class="navbar-item">
@@ -52,9 +52,7 @@
         <div class="column">
           <ProjectCard></ProjectCard>
         </div> -->
-        <div class="column">
-          <Foo></Foo>
-        </div>
+        <router-view />
       </div>
     </div>
   
@@ -69,13 +67,9 @@
 </template>
 
 <script>
-import Foo from '@/components/foo.md';
 
   export default {
     name: 'App',
-    components: {
-      Foo
-    },
     data: function() {
       return {
         showNav: false
