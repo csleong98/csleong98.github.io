@@ -18,7 +18,7 @@
 
                     <div class="content">
                         <p>{{snippet}}</p>
-                        <router-link :to="'/project/'+slug" class="button is-fullwidth">View Project</router-link>
+                        <router-link to="/" class="button is-fullwidth">View Project</router-link>
                     </div>
                 </div>
             </div>
@@ -28,13 +28,10 @@
 
 <script>
 export default {
-    name: "PostCard",
-    props: {
-        title: String,
-        date: String,
-        snippet: String,
-        image: String,
-        slug: String
-    }
+    name: "ProjectCard"
 }
 </script>
+
+<style lang="sass" scoped>
+    
+</style>

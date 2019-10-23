@@ -37,8 +37,27 @@
       </div>
     </nav>
 
-    <router-view></router-view>
 
+    <div class="container">
+      <div class="columns">
+        <!-- <div class="column">
+          <ProjectCard></ProjectCard>
+        </div>
+        <div class="column">
+          <ProjectCard></ProjectCard>
+        </div>
+        <div class="column">
+          <ProjectCard></ProjectCard>
+        </div>
+        <div class="column">
+          <ProjectCard></ProjectCard>
+        </div> -->
+        <div class="column">
+          <Foo></Foo>
+        </div>
+      </div>
+    </div>
+  
     <footer class="footer">
       <div class="content has-text-centered">
         <p>
@@ -50,10 +69,12 @@
 </template>
 
 <script>
+import Foo from '@/components/foo.md';
+
   export default {
     name: 'App',
     components: {
-
+      Foo
     },
     data: function() {
       return {
