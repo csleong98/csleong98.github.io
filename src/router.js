@@ -3,6 +3,7 @@ import Router from "vue-router";
 import Home from "./views/Home.vue";
 import About from "./views/About.vue";
 import Contact from "./views/Contact.vue";
+import Foo from "./components/foo.md";
 
 Vue.use(Router);
 
@@ -24,6 +25,11 @@ export default new Router({
             path: "/contact",
             name: "contact",
             component: Contact
+        },
+        {
+            path: "/foo",
+            name: "foo",
+            component: Foo
         }
     ]
 });
