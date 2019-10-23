@@ -1,6 +1,12 @@
 {
     "2019": [
       {
+        "id": "mcd",
+        "date": "September 20, 2019",
+        "title": "McDonald's Kiosk Ordering System - a UX Case Study",
+        "description": "Simple and neat way to add a blogging feature to add on your website."
+      },
+      {
         "id": "vue-markdown-blog",
         "date": "March 10, 2019",
         "title": "Creating a Simple Blog using Vue + Markdown",
