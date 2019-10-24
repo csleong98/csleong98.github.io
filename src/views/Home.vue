@@ -1,18 +1,30 @@
 <template>
   <div class="home">
-    <h1 class="headline center">v-m-blog</h1>
-    <img alt="Vue logo" src="../assets/logo.png">
-    <div class="sections">
-      <div v-for="(section, index) in Object.keys(entries)" :key="index" class="group">
-        <h2 class="center">{{section}}</h2>
-        <div class="section" v-for="entry in entries[section]" :key="entry.id">
-          <div class="entry">
-            <h3 @click="$router.push({name: entry.id})">
-              {{entry.title}}
-              <span class="subtitle">{{entry.date}}</span>
-            </h3>
-            <p>{{entry.description}}</p>
+    <h1 class="center">My Projects</h1>
+
+    <div class="columns" v-for="(section, index) in Object.keys(entries)" :key="index">
+      <div class="column is-3" v-for="entry in entries[section]" :key="entry.id">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img :src="entry.thumbnail" alt="">
+            </figure>
           </div>
+
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">{{entry.title}}</p>
+                <p class="subtitle is-6">{{entry.date}}</p>
+                <br>
+                <p class="subtitle">{{entry.description}}</p>
+              </div>
+            </div>
+          </div>
+
+          <footer class="card-footer">
+            <a class="card-footer-item" @click="$router.push({name: entry.id})">View Project</a>
+          </footer>
         </div>
       </div>
     </div>
@@ -20,63 +32,18 @@
 </template>
 
 <script>
-import projectEntries from '@/statics/data/project.json'
+  import projectEntries from '@/statics/data/project.json'
 
-export default {
+  export default {
     name: "home",
     computed: {
-        entries() {
-            return projectEntries
-        }
+      entries() {
+        return projectEntries
+      }
     }
-};
+  };
 </script>
 
 <style lang="scss" scoped>
-.center {
-  text-align: center;
-}
-.headline {
-  text-transform: uppercase;
-  margin: 4rem auto;
-  font-size: 4rem;
-}
-img {
-  display: block;
-  margin: 0 auto;
-  width: 150px;
-}
-h2 {
-  color: #35495e;
-  text-transform: capitalize;
-  margin-bottom: 2rem;
-}
-h3 {
-  color: #42b883;
-  margin-bottom: 0;
-  cursor: pointer;
-  &:hover {
-    text-decoration: underline;
-  }
-  .subtitle {
-    color: grey;
-    font-size: .98rem;
-    float: right;
-    font-weight: normal;
-  }
-}
-p {
-  margin-top: .4rem;
-}
-.sections {
-  max-width: 40vw;
-  margin: 0 auto;
-  margin-top: 4rem;
-}
-.section {
-  margin-bottom: 3rem;
-}
-.group {
-  margin-bottom: 4rem;
-}    
+
 </style>

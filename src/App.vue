@@ -30,16 +30,12 @@
           <router-link to="/project" class="navbar-item">
             Projects
           </router-link>
-          <router-link to="/contact" class="navbar-item">
-            Contact
-          </router-link>
         </div>
       </div>
     </nav>
 
 
     <div class="container">
-      <div class="columns">
         <!-- <div class="column">
           <ProjectCard></ProjectCard>
         </div>
@@ -53,7 +49,6 @@
           <ProjectCard></ProjectCard>
         </div> -->
         <router-view />
-      </div>
     </div>
   
     <footer class="footer">
