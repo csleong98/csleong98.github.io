@@ -27,8 +27,8 @@
           <router-link to="/about" class="navbar-item">
             About
           </router-link>
-          <router-link to="/project" class="navbar-item">
-            Projects
+          <router-link to="/illustrations" class="navbar-item">
+            Illustrations
           </router-link>
         </div>
       </div>
@@ -36,18 +36,6 @@
 
 
     <div class="container">
-        <!-- <div class="column">
-          <ProjectCard></ProjectCard>
-        </div>
-        <div class="column">
-          <ProjectCard></ProjectCard>
-        </div>
-        <div class="column">
-          <ProjectCard></ProjectCard>
-        </div>
-        <div class="column">
-          <ProjectCard></ProjectCard>
-        </div> -->
         <router-view />
     </div>
   

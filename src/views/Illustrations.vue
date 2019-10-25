@@ -1,79 +1,39 @@
 <template>
-    <div>
-        <section class="hero is-medium is-primary is-bold">
-            <div class="hero-body">
-                <div class="container">
-                    <h1 class="title is-2">
-                        Recent projects
-                    </h1>
-                </div>
-            </div>
-        </section>
+    <div class="illustrations">
+        <div class="grid-container" v-for="(section, index) in Object.keys(entries)" :key="index">
+            <div class="grid-item" v-for="entry in entries[section]" :key="entry.id">
+                <div class="grid-item">
+                    <div class="grid-cell--top">
+                        <img :src="entry.thumbnail" alt="">
+                    </div>
 
-        <section class="section">
-            <div class="container is-fluid">
-                <div class="columns is-multiline">
-                    <div class="column is-one-third" v-for="project in projects" v-bind:key="project.title">
-                        <post-card v-bind="project"></post-card>
+                    <div class="grid-cell--bottom">
+                        <div>
+                            <h4>{{entry.title}}</h4>
+                        </div>
+                        <p>{{entry.date}}</p>
+                        <br>
+                        <span>{{entry.description}}</span>
+                        <a @click="$router.push({name: entry.id})">View Project</a>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     </div>
-
 </template>
 
 <script>
-import ProjectsService from "@/services/ProjectsService"
-import PostCard from "@/components/PostCard"
+    import illustrationEntries from "@/statics/data/illustration.json";
 
     export default {
-        name: "projects",
-        components: {
-            PostCard
-        },
-        data() {
-            return{
-                airtableResponse: []
-            }
-        },
-        mounted: function () {
-            let self = this
-            async function getProjects() {
-                try{
-                    const response = await ProjectsService.getProjects()
-                    console.log(response)
-                    self.airtableResponse = response.data.records
-                }
-
-                catch(err) {
-                    console.log(err)
-                }
-            }
-            getProjects()
-        },
+        name: "illustrations",
         computed: {
-            projects() {
-                let self = this
-                let projectList = []
-                for (var i = 0; i < self.airtableResponse.length; i++) {
-                    if (self.airtableResponse[i].fields.Published) {
-                        let project = {
-                            title: self.airtableResponse[i].fields.Title,
-                            date: self.airtableResponse[i].fields["Date Published"],
-                            snippet: self.airtableResponse[i].fields.Excerpt,
-                            image: self.airtableResponse[i].fields.Image[0].url,
-                            slug: self.airtableResponse[i].fields.slug
-                        }
-                        projectList.push(project)
-                    }
-                }
-                return projectList
+            entries() {
+                return illustrationEntries
             }
         }
-    };
+    }
 </script>
 
-<style scoped>
-
+<style lang="scss" scoped>
 </style>

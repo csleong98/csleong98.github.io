@@ -1,30 +1,30 @@
 {
-    "2019": [
+    "Illustration": [
       {
-        "id": "mcd",
+        "id": "red",
         "date": "September 9, 2019",
-        "title": "McDonald's Kiosk Ordering System - a UX Case Study",
+        "title": "Red",
         "thumbnail": "assets/images/mcd.png",
         "description": "Explore my design process of re-designing McDonald's digital ordering system."
       },
       {
-        "id": "doripod",
+        "id": "green",
         "date": "October 25, 2019",
-        "title": "Doripod Rewards App Redesign - a UI/UX Case Study",
+        "title": "Green",
         "thumbnail": "assets/images/mcd.png",
         "description": "Reward system app that enables customer to collect points/stamps to redeem vouchers from merchants"
       },
       {
-        "id": "portfolio",
+        "id": "blue",
         "date": "October 31, 2019",
-        "title": "Building My Portfolio - a UI/UX Case Study",
+        "title": "Blue",
         "thumbnail": "assets/images/mcd.png",
         "description": "The creative process for designing my portfolio to coding it."
       },
       {
-        "id": "nasa19",
+        "id": "yellow",
         "date": "October 20, 2019",
-        "title": "Disaster Donate - a hackathon project",
+        "title": "Yellow",
         "thumbnail": "assets/images/mcd.png",
         "description": "A web app that visualises global environmental disasters and provide functions for people to donate items."
       }

@@ -1,30 +1,21 @@
 <template>
   <div class="home">
-    <h1 class="center">My Projects</h1>
-
-    <div class="columns" v-for="(section, index) in Object.keys(entries)" :key="index">
-      <div class="column is-3" v-for="entry in entries[section]" :key="entry.id">
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-4by3">
-              <img :src="entry.thumbnail" alt="">
-            </figure>
+    <div class="grid-container" v-for="(section, index) in Object.keys(entries)" :key="index">
+      <div class="grid-item" v-for="entry in entries[section]" :key="entry.id">
+        <div class="grid-item">
+          <div class="grid-cell--top">
+            <img :src="entry.thumbnail" alt="">
           </div>
 
-          <div class="card-content">
-            <div class="media">
-              <div class="media-content">
-                <p class="title is-4">{{entry.title}}</p>
-                <p class="subtitle is-6">{{entry.date}}</p>
-                <br>
-                <p class="subtitle">{{entry.description}}</p>
-              </div>
+          <div class="grid-cell--bottom">
+            <div>
+              <h4>{{entry.title}}</h4>
             </div>
+            <p>{{entry.date}}</p>
+            <br>
+            <span>{{entry.description}}</span>
+            <a @click="$router.push({name: entry.id})">View Project</a>
           </div>
-
-          <footer class="card-footer">
-            <a class="card-footer-item" @click="$router.push({name: entry.id})">View Project</a>
-          </footer>
         </div>
       </div>
     </div>
@@ -45,5 +36,34 @@
 </script>
 
 <style lang="scss" scoped>
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+    margin: 2rem auto;
+    width: 90%;
+  }
 
+  .grid-item {
+    background-color: azure;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 10px 60px;
+    position: relative;
+  }
+
+  .grid-cell--top,
+  .grid-cell--bottom {
+    display: flex;
+  }
+
+  .grid-cell--top, .grid-cell--top > img {
+    border-radius: 4px 4px 0 0;
+  }
+
+  .grid-cell--bottom {
+    padding: 1rem;
+    text-align: left;
+    height: 100%;
+  }
 </style>
