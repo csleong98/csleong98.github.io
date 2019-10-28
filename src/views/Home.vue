@@ -38,7 +38,7 @@
 <style lang="scss" scoped>
   .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(250px, 500px));
     grid-auto-rows: auto;
     grid-gap: 1rem;
     margin: 2rem auto;
