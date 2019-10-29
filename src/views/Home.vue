@@ -1,5 +1,11 @@
 <template>
   <div class="home">
+    <div class="header">
+      <p class="header-text">Hi there. I'm a User Experience Designer</p>
+      <p class="header-secondary-text">Aspire to improve the world with good design</p>
+      <p class="header-secondary-text">Previously designed in <a href="https://futurelab.my" target="_blank">FutureLab</a></p>
+    </div>
+
     <div class="grid-container" v-for="(section, index) in Object.keys(entries)" :key="index">
       <div class="card" v-for="entry in entries[section]" :key="entry.id">
         <div class="card-top">
@@ -11,12 +17,9 @@
             <h3>{{entry.title}}</h3>
             <p class="description">{{entry.description}}</p>
             <time class="date">{{entry.date}}</time>
-            <br>
+            <hr>
+            <a class="" @click="$router.push({name: entry.id})">View Case Study</a>
           </div>
-        </div>
-
-        <div class="card-bottom">
-          <a class="" @click="$router.push({name: entry.id})">View Case Study</a>
         </div>
       </div>
     </div>
@@ -38,7 +41,6 @@
 
 <style lang="scss" scoped>
 @import "~@/styles/style.sass";
-
   .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
@@ -69,13 +71,13 @@
   }
 
   .card-content {
-    padding: 2rem;
+    padding: 1.5rem;
     text-align: left;
     height: 100%;
   }
 
-  .card-bottom {
-    padding: 1rem 2rem 2rem;
-    width: 100%;
+  .card-content > a {
+      padding: 1rem 2rem 2rem;
+      align-items: flex-end;
   }
 </style>

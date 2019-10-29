@@ -4,7 +4,7 @@
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <router-link class="navbar-item" to="/">
-          <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+          <p>Chee Seng Leong</p>
         </router-link>
 
         <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
@@ -22,13 +22,13 @@
 
         <div class="navbar-end">
           <router-link to="/" class="navbar-item">
-            Home
-          </router-link>
-          <router-link to="/about" class="navbar-item">
-            About
+            UX Designs
           </router-link>
           <router-link to="/illustrations" class="navbar-item">
             Illustrations
+          </router-link>
+          <router-link to="/about" class="navbar-item">
+            About
           </router-link>
         </div>
       </div>
@@ -75,8 +75,26 @@
     bottom: 0;
     width: 100%;
   }
+
+  .header {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 1rem;
+    margin: 4rem auto;
+    width: 90%;
+  }
+
+  .header-text {
+    font-size: 3rem;
+  }
+
+  .header-secondary-text {
+    font-size: 1.5rem;
+  }
+
 </style>
 
 <style lang="sass">
-  @import "~bulma/bulma.sass"
+  @import "~bulma/bulma.sass";
+  @import "~@/styles/style.sass";
 </style>
