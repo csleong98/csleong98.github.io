@@ -15,14 +15,14 @@
         "description": "Reward system app that enables customer to collect points/stamps to redeem vouchers from merchants"
       },
       {
-        "id": "portfolio",
-        "date": "October 31, 2019",
-        "title": "Building My Portfolio - a UI/UX Case Study",
-        "thumbnail": "assets/images/mcd.png",
+        "id": "nasa2019",
+        "date": "October 29, 2019",
+        "title": "Design Thinking & Process in a Hackathon - a UX Case Study",
+        "thumbnail": "assets/images/nasa2019.png",
         "description": "The creative process for designing my portfolio to coding it."
       },
       {
-        "id": "nasa19",
+        "id": "",
         "date": "October 20, 2019",
         "title": "Disaster Donate - a hackathon project",
         "thumbnail": "assets/images/mcd.png",

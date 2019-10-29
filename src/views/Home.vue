@@ -1,21 +1,22 @@
 <template>
   <div class="home">
     <div class="grid-container" v-for="(section, index) in Object.keys(entries)" :key="index">
-      <div class="grid-item" v-for="entry in entries[section]" :key="entry.id">
-        <div class="grid-item">
-          <div class="grid-cell--top">
-            <img :src="entry.thumbnail" alt="">
-          </div>
+      <div class="card" v-for="entry in entries[section]" :key="entry.id">
+        <div class="card-top">
+          <img :src="entry.thumbnail" alt="">
+        </div>
 
-          <div class="grid-cell--bottom">
-            <div>
-              <h4>{{entry.title}}</h4>
-            </div>
-            <p>{{entry.date}}</p>
+        <div class="card-content">
+          <div class="content">
+            <h3>{{entry.title}}</h3>
+            <p class="description">{{entry.description}}</p>
+            <time class="date">{{entry.date}}</time>
             <br>
-            <span>{{entry.description}}</span>
-            <a @click="$router.push({name: entry.id})">View Project</a>
           </div>
+        </div>
+
+        <div class="card-bottom">
+          <a class="" @click="$router.push({name: entry.id})">View Case Study</a>
         </div>
       </div>
     </div>
@@ -36,34 +37,45 @@
 </script>
 
 <style lang="scss" scoped>
+@import "~@/styles/style.sass";
+
   .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 500px));
-    grid-auto-rows: auto;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    @media screen and (max-width: $large-phones){
+      grid-template-columns: repeat(1, 1fr);
+    }
     grid-gap: 1rem;
     margin: 2rem auto;
     width: 90%;
   }
 
-  .grid-item {
+  .card {
     background-color: azure;
-    border-radius: 4px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 10px 60px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 10px;
     position: relative;
   }
 
-  .grid-cell--top,
-  .grid-cell--bottom {
+  .card-top,
+  .card-content {
     display: flex;
   }
 
-  .grid-cell--top, .grid-cell--top > img {
-    border-radius: 4px 4px 0 0;
+  .card-top,
+  .card-top>img {
+    border-radius: 10px 10px 0 0;
+    width: 100%;
   }
 
-  .grid-cell--bottom {
-    padding: 1rem;
+  .card-content {
+    padding: 2rem;
     text-align: left;
     height: 100%;
+  }
+
+  .card-bottom {
+    padding: 1rem 2rem 2rem;
+    width: 100%;
   }
 </style>
