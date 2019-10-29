@@ -74,53 +74,6 @@
     }
   }
 
-  .header {
-    display: grid;
-    grid-template-columns: 3fr minmax(250px, 350px);
-    grid-template-rows: auto;
-
-    @media screen and (max-width: $large-phones) {
-      grid-template-columns: 1fr;
-      grid-template-rows: 1fr 1fr;
-      grid-template-areas:
-        " image "
-        " text1 "
-        " text2 "
-        " text3 ";
-    }
-
-    grid-gap: 1rem;
-    margin: 4rem auto;
-    width: 90%;
-    grid-template-areas: 
-    " text1 image "
-    " text2 image "
-    " text3 image ";
-  }
-
-  .header-text-1 {
-    background-color: bisque;
-    font-size: 3rem;
-    grid-area: text1;
-  }
-
-  .header-text-2 {
-    background-color: aquamarine;
-    font-size: 1.5rem;
-    grid-area: text2;
-  }
-
-  .header-text-3 {
-    background-color: aquamarine;
-    font-size: 1.5rem;
-    grid-area: text3;
-  }
-
-  .header-image {
-    background-color: chocolate;
-    grid-area: image;
-  }
-
   footer {
     position: absolute;
     bottom: 0;
