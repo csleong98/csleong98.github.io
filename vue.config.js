@@ -10,5 +10,12 @@ module.exports = {
         .options({
           raw: true
         })
+    },
+    css: {
+      loaderOptions: {
+        sass: {
+          prependData: `@import "@/styles/_variables.scss";`
+        }
+      }
     }
   }

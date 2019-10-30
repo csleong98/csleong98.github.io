@@ -56,8 +56,6 @@
 </script>
 
 <style lang="scss">
-  @import "~@/styles/style.sass";
-
   #app {
     min-height: 100vh;
     overflow: hidden;
