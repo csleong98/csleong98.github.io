@@ -4,29 +4,33 @@
         "id": "mcd",
         "date": "September 9, 2019",
         "title": "McDonald's Kiosk Ordering System - a UX Case Study",
-        "thumbnail": "assets/images/mcd.png",
-        "description": "Explore my design process of re-designing McDonald's digital ordering system."
+        "thumbnail": "assets/project-thumbnails/mcd.png",
+        "description": "Explore my design process of re-designing McDonald's digital ordering system.",
+        "link": "https://uxdesign.cc/mcdonalds-kiosk-ordering-system-ui-ux-case-study-fe7b3693f12c"
       },
       {
         "id": "doripod",
         "date": "October 25, 2019",
         "title": "Doripod Rewards App Redesign - a UI/UX Case Study",
-        "thumbnail": "assets/images/doripod.png",
-        "description": "Reward system app that enables customer to collect points/stamps to redeem vouchers from merchants"
+        "thumbnail": "assets/project-thumbnails/doripod.png",
+        "description": "Reward system app that enables customer to collect points/stamps to redeem vouchers from merchants",
+        "link": ""
       },
       {
-        "id": "nasa2019",
+        "id": "disaster-donate-map",
         "date": "October 29, 2019",
         "title": "Design Thinking & Process in a Hackathon - a UX Case Study",
-        "thumbnail": "assets/images/nasa2019.png",
-        "description": "Designing and building a product under 24 hours."
+        "thumbnail": "assets/project-thumbnails/disaster-donate-map.png",
+        "description": "Designing and building a disaster donate web app in under 24 hours.",
+        "link": "https://uxdesign.cc/design-thinking-in-a-hackathon-4bc0806c38"
       },
       {
         "id": "",
         "date": "October 31, 2019",
         "title": "Building my Portfolio - a UX Case Study",
-        "thumbnail": "assets/images/mcd.png",
-        "description": "The process of me designing and building my design portfolio from scratch."
+        "thumbnail": "assets/project-thumbnails/mcd.png",
+        "description": "The process of me designing and building my design portfolio from scratch.",
+        "link": ""
       }
     ]
   }
