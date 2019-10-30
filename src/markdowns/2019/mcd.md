@@ -23,12 +23,11 @@ Few days ago I went to McDonalds to have my lunch with my family. They (McD) ins
 The method I used was observation. My parents and brother are one of the personas I can take note of. I also walked over to observe other people using the system. I found out that some people won't have big issues if they are ordering 1 item at once because it just flows through. I noticed that the problem arises when they wanted to order multiple items and sometimes finding it hard to go back to the previous step which was what we were facing when ordering. Some people still chose "Pay at counter" option but in the end they need to line up to wait for the cashier to arrive (yes, the cashier wasn't even there to wait for you to come and pay).
 
 ### Day 1 On-site research
+![img](2019/project-images/mcd/testing_1-bdf60878-58cf-44fb-a89e-743b8fda9770.jpg)
 
-![](testing_1-bdf60878-58cf-44fb-a89e-743b8fda9770.jpg)
+![img](2019/project-images/mcd/testing_2-97e99c82-bb4a-4681-968a-d39bc57462c3.jpg)
 
-![](testing_2-97e99c82-bb4a-4681-968a-d39bc57462c3.jpg)
-
-![](testing_3-df6bdc7e-c63b-4a59-9a74-7d414142bd8a.jpg)
+![img](2019/project-images/mcd/testing_3-df6bdc7e-c63b-4a59-9a74-7d414142bd8a.jpg)
 
 My brother and father first experience the ordering system.
 
@@ -36,7 +35,7 @@ My brother and father first experience the ordering system.
 
 I went to another McD branch after a week to observe the behavior of other users.
 
-![](testing_4-530a7634-fd5d-4cda-863e-481b1c0be2bc.jpg)
+![img](2019/project-images/mcd/testing_4-530a7634-fd5d-4cda-863e-481b1c0be2bc.jpg)
 
 The bad thing about this branch is that it requires a staff to standby by the kiosks just in case customers are confused with using the system.
 
@@ -50,19 +49,19 @@ The next day I went to the same branch with my mother but this time I test the s
 
 ### User Personas
 
-![](Adam_Persona-887c47a2-2476-410e-9e8a-7fd2e10c64e1.png)
+![img](2019/project-images/mcd/Adam_Persona-887c47a2-2476-410e-9e8a-7fd2e10c64e1.png)
 
-![](Catherine_Persona-e4526576-74b1-4c49-839f-297f22bc3d2d.png)
+![img](2019/project-images/mcd/Catherine_Persona-e4526576-74b1-4c49-839f-297f22bc3d2d.png)
 
 ### User Story Boarding
 
 This is a storyboard I have created from the understanding of the 2 personas above. The character in this storyboard is called Jhen.
 
-![](photo_2019-08-28_21-fc7a4c26-e433-41de-ba92-b84620136ba6.02.57.jpeg)
+![img](2019/project-images/mcd/photo_2019-08-28_21-fc7a4c26-e433-41de-ba92-b84620136ba6.02.57.jpeg)
 
-![](photo_2019-08-28_21-1091adcb-868a-49bf-b28f-58c067773d7e.03.01.jpeg)
+![img](2019/project-images/mcd/photo_2019-08-28_21-1091adcb-868a-49bf-b28f-58c067773d7e.03.01.jpeg)
 
-![](photo_2019-08-28_21-20d08957-83c0-4710-b83a-5ece226bc6f8.02.50.jpeg)
+![img](2019/project-images/mcd/photo_2019-08-28_21-20d08957-83c0-4710-b83a-5ece226bc6f8.02.50.jpeg)
 
 # Ideate and Sketching
 
@@ -70,15 +69,15 @@ This is a storyboard I have created from the understanding of the 2 personas abo
 
 Before I started sketching options, I Googled about kiosk system available in fast food chains and found out KFC will also be implementing. I can't find any videos on how it work but I did found out a promotional video of McDonald's promoting their new kiosk system. I find it weird that the video contains a waitress guiding customers to use the system. The article is [*here](https://emerj.com/ai-sector-overviews/fast-food-robots-kiosks-and-ai-use-cases/).*
 
-![](Single-order-sketch-1-bdb2322c-dfa3-471f-8d51-52745417116e.jpeg)
+![img](2019/project-images/mcd/Single-order-sketch-1-bdb2322c-dfa3-471f-8d51-52745417116e.jpeg)
 
 Early sketches for single-order-flow
 
-![](Single-order-sketch-2-02f7843f-aa23-4060-abff-eeed9f6142c1.jpeg)
+![img](2019/project-images/mcd/Single-order-sketch-2-02f7843f-aa23-4060-abff-eeed9f6142c1.jpeg)
 
 Sketches for single-order checkout flow
 
-![](photo_2019-09-02_22-1c7268d9-a01c-4b31-9212-2fbdd9522bb0.24.05.jpeg)
+![img](2019/project-images/mcd/photo_2019-09-02_22-1c7268d9-a01c-4b31-9212-2fbdd9522bb0.24.05.jpeg)
 
 Sketches for set meal ordering
 
@@ -95,7 +94,7 @@ Sketches for set meal ordering
 
 Base on the sketches I have drawn, I came up with some wireframes of the ordering flow to give myself a better view of what the better system can potentially look and feel. This will also help me to identify problems in the flow and do corrections.
 
-![](Wireframes-f708b956-3622-4bc8-9f3d-77c2596d6340.png)
+![img](2019/project-images/mcd/Wireframes-f708b956-3622-4bc8-9f3d-77c2596d6340.png)
 
 Version 1.0, the flow of this wireframe is zig-zag from left to right.
 
@@ -113,19 +112,19 @@ I created more versions of the same type of action to compare between them.
 
 ### Main Menu Comparison
 
-![](Main_Menu_Comparison-45c1a21d-9996-489a-bff9-4d10d7d6eab9.png)
+![img](2019/project-images/mcd/Main_Menu_Comparison-45c1a21d-9996-489a-bff9-4d10d7d6eab9.png)
 
 Removed Done button as it does not signify any action to carry out. The Done button will appear only if an order has been added to the list.
 
 ### Food Type Selection Revealer Comparison
 
-![](Food_type_selection-6bcc3034-d932-48ec-ab30-62ce85a230ff.png)
+![img](2019/project-images/mcd/Food_type_selection-6bcc3034-d932-48ec-ab30-62ce85a230ff.png)
 
 More organised and focused on the new options for the customers to swipe and reveal.
 
 ### Desserts & Sides Selection
 
-![](Desserts__Sides_Selection-db354947-c4b2-4632-881b-84d9da6d6f4f.png)
+![img](2019/project-images/mcd/Desserts__Sides_Selection-db354947-c4b2-4632-881b-84d9da6d6f4f.png)
 
 Came up with 3 versions of it and in the end I selected the 3rd version (far right). This is because the first 2 versions has too much unnecessary white space and customers cannot see other choices to change.
 
@@ -133,7 +132,7 @@ Came up with 3 versions of it and in the end I selected the 3rd version (far rig
 
 ---
 
-![](Food_information_page-12cfa07a-6530-4bf8-a4d8-279b505074d3.png)
+![img](2019/project-images/mcd/Food_information_page-12cfa07a-6530-4bf8-a4d8-279b505074d3.png)
 
 The one on the left is also the current interface use in McD branches and I thought it was ok to continue with the design until I further examine and realise that it doesn't require 2 different types of buttons to direct customers to 2 different pages where it can lead to 1 page. 
 
@@ -145,7 +144,7 @@ I merge 2 buttons into 1 and keep it as Customisation button because in the next
 
 ---
 
-![](Drinks_Customisation_page-2e973201-87c6-41b2-bb2c-030d58871f20.png)
+![img](2019/project-images/mcd/Drinks_Customisation_page-2e973201-87c6-41b2-bb2c-030d58871f20.png)
 
 This part is the new drinks customisation part and one of the most complicated flow I have designed. The wireframes are later abandoned in the high fidelity part because it does not support customisation of drinks temperature and too many page transitions. The new design enables customer to customise their drinks in only 1 page.
 
@@ -155,7 +154,7 @@ This part is the new drinks customisation part and one of the most complicated f
 
 I created a simple style guide for this project and chose the colours from McDonald's Malaysia website. I created the entire high fidelity design in Sketch and import into Figma (easier prototype sharing)
 
-![](Home_Screen-86515a6c-d140-4ffd-b920-4b7dad7a3764.png)
+![img](2019/project-images/mcd/Home_Screen-86515a6c-d140-4ffd-b920-4b7dad7a3764.png)
 
 Welcome screen of the ordering system
 
@@ -163,31 +162,31 @@ Since I couldn't find a better graphics or illustrations for Dine In and Take Aw
 
 ### Main menu & Food selection
 
-![](Main_menu_and_selection-3a5798da-dc31-4c62-a15f-534f095519a2.png)
+![img](2019/project-images/mcd/Main_menu_and_selection-3a5798da-dc31-4c62-a15f-534f095519a2.png)
 
 I represent the food in cards and also added yellow border highlights when category is selected. I also added a search area on the top right corner.
 
 ### Drinks customisation
 
-![](Drinks_customisation-5b0b949a-35a2-4dcb-9306-a4966e0feb95.png)
+![img](2019/project-images/mcd/Drinks_customisation-5b0b949a-35a2-4dcb-9306-a4966e0feb95.png)
 
 This the part I mentioned in the low fidelity wireframes. This new flow and design replaced the one you saw in the low fidelity section. Customer will see their pre-selected drink and if they want to select another drink they can do so and a confirmation button will appear to indicate there's a change.
 
 ### Desserts & Sides
 
-![](Desserts__Sides_Selection-90472fd0-656c-4b3c-8586-8d997b1b310d.png)
+![img](2019/project-images/mcd/Desserts__Sides_Selection-90472fd0-656c-4b3c-8586-8d997b1b310d.png)
 
 When a customer decides that he/she only wants to order desserts or sides they won't need to see multiple different pages. They choose the food and a counter will appear at the bottom because some of them don't require customisations at all.
 
 ### Order list & payment types
 
-![](Order_list__Payment_types-07ca2091-6d65-43c8-bbce-8ea666ade8c0.png)
+![img](2019/project-images/mcd/Order_list__Payment_types-07ca2091-6d65-43c8-bbce-8ea666ade8c0.png)
 
 Changed some button wordings to encourage clear actions and message. I also reorganise the payment types to indicate clear possible actions.
 
 ### Thank you pages (Take Away & Dine In)
 
-![](Thank_you_pages-fdc9d245-b631-485c-be09-85d377b8e102.png)
+![img](2019/project-images/mcd/Thank_you_pages-fdc9d245-b631-485c-be09-85d377b8e102.png)
 
 On the left side of the picture will be the thank you screen for Take Away orders and on the right side will be the Dine In orders.
 

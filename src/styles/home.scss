@@ -67,8 +67,15 @@
   .card {
     background-color: white;
     border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 10px;
+    border: 1px solid $light-grey;
     position: relative;
+    box-shadow: none;
+    transition: all 0.3s ease-out;
+  }
+  .card:hover, .card:focus {
+    transition: all 0.3s ease-out;
+    box-shadow: 0 14px 26px rgba(0,0,0,0.2);
+    cursor: pointer;
   }
 
   .card-top,

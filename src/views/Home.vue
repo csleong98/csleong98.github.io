@@ -11,7 +11,7 @@
         <h3 class="subheading">My Recent Work</h3>
       </div>
       <div class="grid-container" v-for="(section, index) in Object.keys(entries)" :key="index">
-        <div class="card" v-for="entry in entries[section]" :key="entry.id">
+        <div class="card" v-for="entry in entries[section]" :key="entry.id" @click="openLink(entry.link)">
           <div class="card-top">
             <img :src="entry.thumbnail" alt="">
           </div>
@@ -20,7 +20,7 @@
             <div class="content">
               <h4>{{entry.title}}</h4>
               <p class="description">{{entry.description}}</p>
-              <a class="" @click="$router.push({name: entry.id})">View Case Study</a>
+              <a @click="openLink(entry.link)">View Case Study</a>
             </div>
           </div>
         </div>
@@ -38,6 +38,11 @@
     computed: {
       entries() {
         return projectEntries
+      }
+    },
+    methods: {
+      openLink: function(param) {
+        window.open(param, "_blank");
       }
     }
   };
