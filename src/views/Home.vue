@@ -2,15 +2,15 @@
   <div class="home">
     <div class="container">
       <div class="header">
-        <p class="header-text-1">Hi there. I'm a User Experience Designer</p>
-        <p class="header-text-2">Aspire to improve the world with good design</p>
+        <p class="header-text-1">Hi there. I'm a UI/UX Designer</p>
+        <p class="header-text-2">Exploring the design spaces around me everyday.</p>
         <p class="header-text-3">Previously designed in <a href="https://futurelab.my" target="_blank">FutureLab</a></p>
         <img class="header-image" src="assets/astronaut.svg" alt="">
       </div>
       <div>
         <h3 class="subheading">My Recent Work</h3>
       </div>
-      <div class="grid-container" v-for="(section, index) in Object.keys(entries)" :key="index">
+      <div class="card-container" v-for="(section, index) in Object.keys(entries)" :key="index">
         <div class="card" v-for="entry in entries[section]" :key="entry.id">
           <div class="card-top">
             <img :src="entry.thumbnail" alt="">

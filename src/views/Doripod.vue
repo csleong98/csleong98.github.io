@@ -1,15 +1,15 @@
 <template>
     <div>
-        <header>
-            <img class="page-cover-image" src="assets/project-images/doripod/Mockup.png"
-                style="object-position:center 7.399999999999995%" />
-            <div class="page-header-icon page-header-icon-with-cover">
-                <span class="icon">🐟</span>
-            </div>
-            <h1 class="page-title">Doripod Reward App - a UI/UX Case Study</h1>
-        </header>
-
+        <img class="page-cover-image" src="assets/project-images/doripod/Mockup.png"
+                    style="object-position:center 7.399999999999995%" />
         <div class="page-body">
+            <header>
+                
+                <div class="page-header-icon page-header-icon-with-cover">
+                    <span class="icon">🐟</span>
+                </div>
+                <h1 class="page-title">Doripod Reward App - a UI/UX Case Study</h1>
+            </header>
             <hr />
             <p class="">Doripod Reward App is suffering from bad user reviews
                 and misleading user flows that confuses users who just downloaded the app. I took up this project from
@@ -19,8 +19,7 @@
                 Doripod.</p>
             <h1 class="">My UX Process</h1>
             <hr />
-            <figure class="image"><a
-                    href="Doripod Reward App a UI UX Case Study/UX_Process.png"><img style="width:1743px"
+            <figure class="image"><a href="Doripod Reward App a UI UX Case Study/UX_Process.png"><img
                         src="assets/project-images/doripod/UX_Process.png" /></a></figure>
             <p class="">Every idea or wireframe is frequently tested by myself
                 and other stakeholder if any of us find any problem or solution I will need to bring it back to the
@@ -43,9 +42,8 @@
                 was that I need to access the log in page to able to locate the sign up action button.</p>
             <div class="column-list">
                 <div style="width:50%" class="column">
-                    <figure class="image"><a
-                            href="Doripod Reward App a UI UX Case Study/home.jpeg"><img style="width:640px"
-                                src="assets/project-images/doripod/home.jpeg" /></a>
+                    <figure class="image"><a href="Doripod Reward App a UI UX Case Study/home.jpeg"><img
+                                style="width:640px" src="assets/project-images/doripod/home.jpeg" /></a>
                         <figcaption>Doripod Home page</figcaption>
                     </figure>
                     <p class="">
@@ -63,9 +61,8 @@
                     </p>
                 </div>
             </div>
-            <figure class="image"><a
-                    href="Doripod Reward App a UI UX Case Study/Sign_Up_Flow.png"><img style="width:528px"
-                        src="assets/project-images/doripod/Sign_Up_Flow.png" /></a></figure>
+            <figure class="image"><a href="Doripod Reward App a UI UX Case Study/Sign_Up_Flow.png"><img
+                        style="width:528px" src="assets/project-images/doripod/Sign_Up_Flow.png" /></a></figure>
             <p class="">The sign up flow and transition is very poor in
                 Doripod. </p>
             <ol class="numbered-list" start="1">
@@ -94,24 +91,21 @@
                 Another issue is that there may be a chance that a customer cannot register to the merchant or store
                 because there is no option to which is disappointing and frustrating for the customer after going
                 through all the steps.</p>
-            <figure class="image"><a
-                    href="Doripod Reward App a UI UX Case Study/Membership_Registration_1.png"><img style="width:1440px"
-                        src="assets/project-images/doripod/Membership_Registration_1.png" /></a>
+            <figure class="image"><a href="Doripod Reward App a UI UX Case Study/Membership_Registration_1.png"><img
+                        style="width:1440px" src="assets/project-images/doripod/Membership_Registration_1.png" /></a>
                 <figcaption>The first flow of the registration where it leads to another code registration in the end
                 </figcaption>
             </figure>
             <p class=""> </p>
-            <figure class="image"><a
-                    href="Doripod Reward App a UI UX Case Study/Membership_Registration_2.png"><img style="width:1440px"
-                        src="assets/project-images/doripod/Membership_Registration_2.png" /></a>
+            <figure class="image"><a href="Doripod Reward App a UI UX Case Study/Membership_Registration_2.png"><img
+                        style="width:1440px" src="assets/project-images/doripod/Membership_Registration_2.png" /></a>
                 <figcaption>The second flow which is better because you can sign up and receive a new membership voucher
                 </figcaption>
             </figure>
             <p class="">
             </p>
             <h2 class="">E-wallet Feature</h2>
-            <figure class="image"><a
-                    href="Doripod Reward App a UI UX Case Study/e-wallet.png"><img style="width:240px"
+            <figure class="image"><a href="Doripod Reward App a UI UX Case Study/e-wallet.png"><img style="width:240px"
                         src="assets/project-images/doripod/e-wallet.png" /></a>
                 <figcaption>Doripod E-wallet</figcaption>
             </figure>
@@ -254,14 +248,13 @@
             </figure>
             <p class="">Cash is still considered to be easier to use compared
                 to digital wallets in Malaysia.</p>
-            <figure class="image"><a
-                    href="Doripod Reward App a UI UX Case Study/Open_Ended_Questions.png"><img style="width:576px"
-                        src="assets/project-images/doripod/Open_Ended_Questions.png" /></a></figure>
+            <figure class="image"><a href="Doripod Reward App a UI UX Case Study/Open_Ended_Questions.png"><img
+                        style="width:576px" src="assets/project-images/doripod/Open_Ended_Questions.png" /></a></figure>
             <p class="">
             </p>
             <h3 class="">Google Form Survey (Version 2)</h3>
-            <p class="">After going through results and found out that <mark
-                    class="highlight-yellow_background">GrabPay and Touch &#x27;n Go eWallet </mark>has the highest user
+            <p class="">After going through results and found out that <mark class="highlight-yellow_background">GrabPay
+                    and Touch &#x27;n Go eWallet </mark>has the highest user
                 rate in the research I decided to conduct another in-depth survey on these 2 apps to find out the reason
                 behind the high usage.</p>
             <p class="">
@@ -318,35 +311,30 @@
             <h2 class="">User Personas</h2>
             <p class="">I created 2 personas who are May and Steve from the
                 first and second survey to further visualise who I am designing for.</p>
-            <figure class="image"><a
-                    href="Doripod Reward App a UI UX Case Study/Steve_User_Persona.png"><img style="width:576px"
-                        src="assets/project-images/doripod/Steve_User_Persona.png" /></a></figure>
+            <figure class="image"><a href="Doripod Reward App a UI UX Case Study/Steve_User_Persona.png"><img
+                        style="width:576px" src="assets/project-images/doripod/Steve_User_Persona.png" /></a></figure>
             <p class=""> </p>
-            <figure class="image"><a
-                    href="Doripod Reward App a UI UX Case Study/May_User_Persona.png"><img style="width:576px"
-                        src="assets/project-images/doripod/May_User_Persona.png" /></a></figure>
+            <figure class="image"><a href="Doripod Reward App a UI UX Case Study/May_User_Persona.png"><img
+                        style="width:576px" src="assets/project-images/doripod/May_User_Persona.png" /></a></figure>
             <p class="">
             </p>
             <h2 class="">User Stories</h2>
             <p class="">To understand more about the personas I created, I
                 illustrate their daily life story to further explain how they perform in their daily life.</p>
             <h3 class="">May&#x27;s Story</h3>
-            <figure class="image"><a
-                    href="Doripod Reward App a UI UX Case Study/Mays_Story.jpeg"><img style="width:576px"
-                        src="assets/project-images/doripod/Mays_Story.jpeg" /></a></figure>
+            <figure class="image"><a href="Doripod Reward App a UI UX Case Study/Mays_Story.jpeg"><img
+                        style="width:576px" src="assets/project-images/doripod/Mays_Story.jpeg" /></a></figure>
             <p class="">
             </p>
             <h3 class="">Steve&#x27;s Story (Ordering food through his phone)
             </h3>
-            <figure class="image"><a
-                    href="Doripod Reward App a UI UX Case Study/Steves_Story_1.jpeg"><img style="width:576px"
-                        src="assets/project-images/doripod/Steves_Story_1.jpeg" /></a></figure>
+            <figure class="image"><a href="Doripod Reward App a UI UX Case Study/Steves_Story_1.jpeg"><img
+                        style="width:576px" src="assets/project-images/doripod/Steves_Story_1.jpeg" /></a></figure>
             <p class="">
             </p>
             <h3 class="">Steve&#x27;s Story (Eating at a restaurant)</h3>
-            <figure class="image"><a
-                    href="Doripod Reward App a UI UX Case Study/Steves_Story_2.jpeg"><img style="width:576px"
-                        src="assets/project-images/doripod/Steves_Story_2.jpeg" /></a></figure>
+            <figure class="image"><a href="Doripod Reward App a UI UX Case Study/Steves_Story_2.jpeg"><img
+                        style="width:576px" src="assets/project-images/doripod/Steves_Story_2.jpeg" /></a></figure>
             <p class="">
             </p>
             <h1 class="">Ideation</h1>
@@ -430,9 +418,8 @@
                 continuously iterative.</p>
             <h1 class="">Medium Fidelity Designs</h1>
             <hr />
-            <figure class="image"><a
-                    href="Doripod Reward App a UI UX Case Study/mid-fi_prototypes.png"><img style="width:1309px"
-                        src="assets/project-images/doripod/mid-fi_prototypes.png" /></a></figure>
+            <figure class="image"><a href="Doripod Reward App a UI UX Case Study/mid-fi_prototypes.png"><img
+                        style="width:1309px" src="assets/project-images/doripod/mid-fi_prototypes.png" /></a></figure>
             <p class="">The image above shows you the entire medium fidelity
                 of Doripod prototype. It is actually separated by sections like registration process, on-boarding
                 process, applying merchant membership, etc. I have also created frames (or artboards) that shows the
@@ -458,9 +445,8 @@
             <p class="">
             </p>
             <h3 class="">Home page</h3>
-            <figure class="image"><a
-                    href="Doripod Reward App a UI UX Case Study/Home_page.png"><img style="width:1774px"
-                        src="assets/project-images/doripod/Home_page.png" /></a></figure>
+            <figure class="image"><a href="Doripod Reward App a UI UX Case Study/Home_page.png"><img
+                        style="width:1774px" src="assets/project-images/doripod/Home_page.png" /></a></figure>
             <p class="">The image above shows 3 versions or iterations of the
                 Home page design. It started out as just plain display and with too much whitespace at the bottom. In
                 the 2nd version, I added a search function on top of it and also redesign the entire merchant card to
@@ -469,9 +455,8 @@
             <p class="">
             </p>
             <h3 class="">Merchant page</h3>
-            <figure class="image"><a
-                    href="Doripod Reward App a UI UX Case Study/Merchant_page.png"><img style="width:1774px"
-                        src="assets/project-images/doripod/Merchant_page.png" /></a></figure>
+            <figure class="image"><a href="Doripod Reward App a UI UX Case Study/Merchant_page.png"><img
+                        style="width:1774px" src="assets/project-images/doripod/Merchant_page.png" /></a></figure>
             <p class="">On number 2, I added a micro interaction on the
                 merchant which enable users to save their favourite merchant immediately. After discussion I iterate
                 again and made some huge changes to both saved merchants and its navigation. Number 3 shows that Saved
@@ -481,9 +466,9 @@
             <p class="">
             </p>
             <h3 class="">Merchant Details page</h3>
-            <figure class="image"><a
-                    href="Doripod Reward App a UI UX Case Study/Merchant_Details_page.png"><img style="width:1774px"
-                        src="assets/project-images/doripod/Merchant_Details_page.png" /></a></figure>
+            <figure class="image"><a href="Doripod Reward App a UI UX Case Study/Merchant_Details_page.png"><img
+                        style="width:1774px" src="assets/project-images/doripod/Merchant_Details_page.png" /></a>
+            </figure>
             <p class="">Version no.1 has 3 tabs to display the
                 history/activities conducted with the merchant. It also has a point display for point or stamp
                 collection. Version no.1 was designed with the idea of enrolling to a merchant means enrolling for a
@@ -494,9 +479,8 @@
             <p class="">
             </p>
             <h3 class="">Membership page</h3>
-            <figure class="image"><a
-                    href="Doripod Reward App a UI UX Case Study/Memberships_page.png"><img style="width:1774px"
-                        src="assets/project-images/doripod/Memberships_page.png" /></a></figure>
+            <figure class="image"><a href="Doripod Reward App a UI UX Case Study/Memberships_page.png"><img
+                        style="width:1774px" src="assets/project-images/doripod/Memberships_page.png" /></a></figure>
             <p class="">Replacing Rewards page with Membership is the biggest
                 change of this part. The membership page will act as a page that stores all your membership subscription
                 or cards where you can easily access them. The 3rd version is a minor text change on availability of
@@ -504,9 +488,9 @@
             <p class="">
             </p>
             <h3 class="">Membership Details page</h3>
-            <figure class="image"><a
-                    href="Doripod Reward App a UI UX Case Study/Memberships_card_page.png"><img style="width:1774px"
-                        src="assets/project-images/doripod/Memberships_card_page.png" /></a></figure>
+            <figure class="image"><a href="Doripod Reward App a UI UX Case Study/Memberships_card_page.png"><img
+                        style="width:1774px" src="assets/project-images/doripod/Memberships_card_page.png" /></a>
+            </figure>
             <p class="">This is a new page that shows details of a membership
                 of a merchant. This page can be accessed from Merchant Details page or Membership page. No. 1 shows that
                 vouchers have thumbnail images and I later removed it in No. 2 as I find it wasting too much space. In
@@ -517,9 +501,8 @@
             <p class="">
             </p>
             <h3 class="">Merchant Details page functionalities</h3>
-            <figure class="image"><a
-                    href="Doripod Reward App a UI UX Case Study/Sharing_Feature.png"><img style="width:1774px"
-                        src="assets/project-images/doripod/Sharing_Feature.png" /></a></figure>
+            <figure class="image"><a href="Doripod Reward App a UI UX Case Study/Sharing_Feature.png"><img
+                        style="width:1774px" src="assets/project-images/doripod/Sharing_Feature.png" /></a></figure>
             <p class="">The discussion also helped me to include some
                 important minor features to merchant details page. I added a icon that signifies more function where
                 users can copy the merchant&#x27;s address, share merchant&#x27;s page to friends and also open
@@ -533,9 +516,8 @@
                 can email me to get to know more about it.</p>
             <h1 class="">High Fidelity Designs (Prototype)</h1>
             <hr />
-            <figure class="image"><a
-                    href="Doripod Reward App a UI UX Case Study/high_fid_prototypes.png"><img style="width:1078px"
-                        src="assets/project-images/doripod/high_fid_prototypes.png" /></a></figure>
+            <figure class="image"><a href="Doripod Reward App a UI UX Case Study/high_fid_prototypes.png"><img
+                        style="width:1078px" src="assets/project-images/doripod/high_fid_prototypes.png" /></a></figure>
             <p class="">This is the high fidelity prototype of Doripod. I
                 built the new interface with the foundation of Google&#x27;s Material Design Guidelines and UI Kit
                 because I wanted to learn about the design system.</p>
@@ -546,9 +528,8 @@
             <p class="">
             </p>
             <h3 class="">Navigation bar</h3>
-            <figure class="image"><a
-                    href="Doripod Reward App a UI UX Case Study/Navigation_bar.png"><img style="width:1379px"
-                        src="assets/project-images/doripod/Navigation_bar.png" /></a></figure>
+            <figure class="image"><a href="Doripod Reward App a UI UX Case Study/Navigation_bar.png"><img
+                        style="width:1379px" src="assets/project-images/doripod/Navigation_bar.png" /></a></figure>
             <p class="">The navigation bar has 3 iterations throughout the
                 design process because we decide to prioritise E-wallet page over Profile page.</p>
             <ol class="numbered-list" start="1">
@@ -566,8 +547,7 @@
             <p class="">
             </p>
             <h3 class="">Home</h3>
-            <figure class="image"><a
-                    href="Doripod Reward App a UI UX Case Study/Home.png"><img style="width:1824px"
+            <figure class="image"><a href="Doripod Reward App a UI UX Case Study/Home.png"><img style="width:1824px"
                         src="assets/project-images/doripod/Home.png" /></a></figure>
             <p class="">The most important page in Doripod as it the first
                 page when any new or existing users will see.</p>
@@ -588,9 +568,9 @@
             <p class="">
             </p>
             <h3 class="">Merchants Details page</h3>
-            <figure class="image"><a
-                    href="Doripod Reward App a UI UX Case Study/Merchant_Details_page 1.png"><img style="width:1379px"
-                        src="assets/project-images/doripod/Merchant_Details_page 1.png" /></a></figure>
+            <figure class="image"><a href="Doripod Reward App a UI UX Case Study/Merchant_Details_page 1.png"><img
+                        style="width:1379px" src="assets/project-images/doripod/Merchant_Details_page 1.png" /></a>
+            </figure>
             <ol class="numbered-list" start="1">
                 <li>This version consist of the basic functions of a merchant page where user can view merchant
                     information, their news and also available vouchers.</li>
@@ -606,9 +586,9 @@
             <p class="">
             </p>
             <h3 class="">Membership Details page</h3>
-            <figure class="image"><a
-                    href="Doripod Reward App a UI UX Case Study/Membership_Point_System.png"><img style="width:1824px"
-                        src="assets/project-images/doripod/Membership_Point_System.png" /></a></figure>
+            <figure class="image"><a href="Doripod Reward App a UI UX Case Study/Membership_Point_System.png"><img
+                        style="width:1824px" src="assets/project-images/doripod/Membership_Point_System.png" /></a>
+            </figure>
             <p class="">The membership details page can be accessed in both
                 merchant details page and rewards page.</p>
             <ol class="numbered-list" start="1">
@@ -631,9 +611,8 @@
             <p class="">
             </p>
             <h3 class="">Rewards page</h3>
-            <figure class="image"><a
-                    href="Doripod Reward App a UI UX Case Study/Rewards_page.png"><img style="width:1379px"
-                        src="assets/project-images/doripod/Rewards_page.png" /></a></figure>
+            <figure class="image"><a href="Doripod Reward App a UI UX Case Study/Rewards_page.png"><img
+                        style="width:1379px" src="assets/project-images/doripod/Rewards_page.png" /></a></figure>
             <ol class="numbered-list" start="1">
                 <li>This version is previously called Memberships page where it only display memberships the user have.
                 </li>
@@ -701,624 +680,5 @@
 </script>
 
 <style lang="scss" scoped>
-    /* webkit printing magic: print all background colors */
-    html {
-        -webkit-print-color-adjust: exact;
-    }
-
-    * {
-        box-sizing: border-box;
-        -webkit-print-color-adjust: exact;
-    }
-
-    html,
-    body {
-        margin: 0;
-        padding: 0;
-    }
-
-    @media only screen {
-        body {
-            margin: 2em auto;
-            max-width: 900px;
-            color: rgb(55, 53, 47);
-        }
-    }
-
-    body {
-        line-height: 1.5;
-        white-space: pre-wrap;
-    }
-
-    a,
-    a.visited {
-        color: inherit;
-        text-decoration: underline;
-    }
-
-    .pdf-relative-link-path {
-        font-size: 80%;
-        color: #444;
-    }
-
-    h1,
-    h2,
-    h3 {
-        letter-spacing: -0.01em;
-        line-height: 1.2;
-        font-weight: 600;
-        margin-bottom: 0;
-    }
-
-    .page-title {
-        font-size: 2.5rem;
-        font-weight: 700;
-        margin-top: 0;
-        margin-bottom: 0.75em;
-    }
-
-    h1 {
-        font-size: 1.875rem;
-        margin-top: 1.875rem;
-    }
-
-    h2 {
-        font-size: 1.5rem;
-        margin-top: 1.5rem;
-    }
-
-    h3 {
-        font-size: 1.25rem;
-        margin-top: 1.25rem;
-    }
-
-    .source {
-        border: 1px solid #ddd;
-        border-radius: 3px;
-        padding: 1.5em;
-        word-break: break-all;
-    }
-
-    .callout {
-        border-radius: 3px;
-        padding: 1rem;
-    }
-
-    figure {
-        margin: 1.25em 0;
-        page-break-inside: avoid;
-    }
-
-    figcaption {
-        opacity: 0.5;
-        font-size: 85%;
-        margin-top: 0.5em;
-    }
-
-    mark {
-        background-color: transparent;
-    }
-
-    .indented {
-        padding-left: 1.5em;
-    }
-
-    hr {
-        background: transparent;
-        display: block;
-        width: 100%;
-        height: 1px;
-        visibility: visible;
-        border: none;
-        border-bottom: 1px solid rgba(55, 53, 47, 0.09);
-    }
-
-    img {
-        max-width: 100%;
-    }
-
-    @media only print {
-        img {
-            max-height: 100vh;
-            object-fit: contain;
-        }
-    }
-
-    @page {
-        margin: 1in;
-    }
-
-    .collection-content {
-        font-size: 0.875rem;
-    }
-
-    .column-list {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .column {
-        padding: 0 1em;
-    }
-
-    .column:first-child {
-        padding-left: 0;
-    }
-
-    .column:last-child {
-        padding-right: 0;
-    }
-
-    .table_of_contents-item {
-        display: block;
-        font-size: 0.875rem;
-        line-height: 1.3;
-        padding: 0.125rem;
-    }
-
-    .table_of_contents-indent-1 {
-        margin-left: 1.5rem;
-    }
-
-    .table_of_contents-indent-2 {
-        margin-left: 3rem;
-    }
-
-    .table_of_contents-indent-3 {
-        margin-left: 4.5rem;
-    }
-
-    .table_of_contents-link {
-        text-decoration: none;
-        opacity: 0.7;
-        border-bottom: 1px solid rgba(55, 53, 47, 0.18);
-    }
-
-    table,
-    th,
-    td {
-        border: 1px solid rgba(55, 53, 47, 0.09);
-        border-collapse: collapse;
-    }
-
-    table {
-        border-left: none;
-        border-right: none;
-    }
-
-    th,
-    td {
-        font-weight: normal;
-        padding: 0.25em 0.5em;
-        line-height: 1.5;
-        min-height: 1.5em;
-        text-align: left;
-    }
-
-    th {
-        color: rgba(55, 53, 47, 0.6);
-    }
-
-    ol,
-    ul {
-        margin: 0;
-        margin-block-start: 0.6em;
-        margin-block-end: 0.6em;
-    }
-
-    li>ol:first-child,
-    li>ul:first-child {
-        margin-block-start: 0.6em;
-    }
-
-    ul>li {
-        list-style: disc;
-    }
-
-    ul.to-do-list {
-        text-indent: -1.7em;
-    }
-
-    ul.to-do-list>li {
-        list-style: none;
-    }
-
-    .to-do-children-checked {
-        text-decoration: line-through;
-        opacity: 0.375;
-    }
-
-    ul.toggle>li {
-        list-style: none;
-    }
-
-    ul {
-        padding-inline-start: 1.7em;
-    }
-
-    ul>li {
-        padding-left: 0.1em;
-    }
-
-    ol {
-        padding-inline-start: 1.6em;
-    }
-
-    ol>li {
-        padding-left: 0.2em;
-    }
-
-    .mono ol {
-        padding-inline-start: 2em;
-    }
-
-    .mono ol>li {
-        text-indent: -0.4em;
-    }
-
-    .toggle {
-        padding-inline-start: 0em;
-        list-style-type: none;
-    }
-
-    /* Indent toggle children */
-    .toggle>li>details {
-        padding-left: 1.7em;
-    }
-
-    .toggle>li>details>summary {
-        margin-left: -1.1em;
-    }
-
-    .selected-value {
-        display: inline-block;
-        padding: 0 0.5em;
-        background: rgba(206, 205, 202, 0.5);
-        border-radius: 3px;
-        margin-right: 0.5em;
-        margin-top: 0.3em;
-        margin-bottom: 0.3em;
-        white-space: nowrap;
-    }
-
-    .collection-title {
-        display: inline-block;
-        margin-right: 1em;
-    }
-
-    time {
-        opacity: 0.5;
-    }
-
-    .icon {
-        display: inline-block;
-        max-width: 1.2em;
-        max-height: 1.2em;
-        text-decoration: none;
-        vertical-align: text-bottom;
-        margin-right: 0.5em;
-    }
-
-    img.icon {
-        border-radius: 3px;
-    }
-
-    .user-icon {
-        width: 1.5em;
-        height: 1.5em;
-        border-radius: 100%;
-        margin-right: 0.5rem;
-    }
-
-    .user-icon-inner {
-        font-size: 0.8em;
-    }
-
-    .text-icon {
-        border: 1px solid #000;
-        text-align: center;
-    }
-
-    .page-cover-image {
-        display: block;
-        object-fit: cover;
-        width: 100%;
-        height: 30vh;
-    }
-
-    .page-header-icon {
-        font-size: 3rem;
-        margin-bottom: 1rem;
-    }
-
-    .page-header-icon-with-cover {
-        margin-top: -0.72em;
-        margin-left: 0.07em;
-    }
-
-    .page-header-icon img {
-        border-radius: 3px;
-    }
-
-    .link-to-page {
-        margin: 1em 0;
-        padding: 0;
-        border: none;
-        font-weight: 500;
-    }
-
-    p>.user {
-        opacity: 0.5;
-    }
-
-    td>.user,
-    td>time {
-        white-space: nowrap;
-    }
-
-    input[type="checkbox"] {
-        transform: scale(1.5);
-        margin-right: 0.6em;
-        vertical-align: middle;
-    }
-
-    p {
-        margin-top: 0.5em;
-        margin-bottom: 0.5em;
-    }
-
-    .image {
-        border: none;
-        margin: 1.5em 0;
-        padding: 0;
-        border-radius: 0;
-        text-align: center;
-    }
-
-    .code,
-    code {
-        background: rgba(135, 131, 120, 0.15);
-        border-radius: 3px;
-        padding: 0.2em 0.4em;
-        border-radius: 3px;
-        font-size: 85%;
-        tab-size: 2;
-    }
-
-    code {
-        color: #eb5757;
-    }
-
-    .code {
-        padding: 1.5em 1em;
-    }
-
-    .code>code {
-        background: none;
-        padding: 0;
-        font-size: 100%;
-        color: inherit;
-    }
-
-    blockquote {
-        font-size: 1.25em;
-        margin: 1em 0;
-        padding-left: 1em;
-        border-left: 3px solid rgb(55, 53, 47);
-    }
-
-    .bookmark-href {
-        font-size: 0.75em;
-        opacity: 0.5;
-    }
-
-    .sans {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
-    }
-
-    .code {
-        font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
-    }
-
-    .serif {
-        font-family: Lyon-Text, Georgia, KaiTi, STKaiTi, '华文楷体', KaiTi_GB2312, '楷体_GB2312', serif;
-    }
-
-    .mono {
-        font-family: Nitti, 'Microsoft YaHei', '微软雅黑', monospace;
-    }
-
-    .pdf .sans {
-        font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC', 'Noto Sans CJK KR';
-    }
-
-    .pdf .code {
-        font-family: Source Code Pro, 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC', 'Noto Sans Mono CJK KR';
-    }
-
-    .pdf .serif {
-        font-family: PT Serif, Lyon-Text, Georgia, KaiTi, STKaiTi, '华文楷体', KaiTi_GB2312, '楷体_GB2312', serif, 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC', 'Noto Sans CJK KR';
-    }
-
-    .pdf .mono {
-        font-family: PT Mono, Nitti, 'Microsoft YaHei', '微软雅黑', monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC', 'Noto Sans Mono CJK KR';
-    }
-
-    .highlight-default {}
-
-    .highlight-gray {
-        color: rgb(155, 154, 151);
-    }
-
-    .highlight-brown {
-        color: rgb(100, 71, 58);
-    }
-
-    .highlight-orange {
-        color: rgb(217, 115, 13);
-    }
-
-    .highlight-yellow {
-        color: rgb(223, 171, 1);
-    }
-
-    .highlight-teal {
-        color: rgb(15, 123, 108);
-    }
-
-    .highlight-blue {
-        color: rgb(11, 110, 153);
-    }
-
-    .highlight-purple {
-        color: rgb(105, 64, 165);
-    }
-
-    .highlight-pink {
-        color: rgb(173, 26, 114);
-    }
-
-    .highlight-red {
-        color: rgb(224, 62, 62);
-    }
-
-    .highlight-gray_background {
-        background: rgb(235, 236, 237);
-    }
-
-    .highlight-brown_background {
-        background: rgb(233, 229, 227);
-    }
-
-    .highlight-orange_background {
-        background: rgb(250, 235, 221);
-    }
-
-    .highlight-yellow_background {
-        background: rgb(251, 243, 219);
-    }
-
-    .highlight-teal_background {
-        background: rgb(221, 237, 234);
-    }
-
-    .highlight-blue_background {
-        background: rgb(221, 235, 241);
-    }
-
-    .highlight-purple_background {
-        background: rgb(234, 228, 242);
-    }
-
-    .highlight-pink_background {
-        background: rgb(244, 223, 235);
-    }
-
-    .highlight-red_background {
-        background: rgb(251, 228, 228);
-    }
-
-    .block-color-default {
-        color: inherit;
-        fill: inherit;
-    }
-
-    .block-color-gray {
-        color: rgba(55, 53, 47, 0.6);
-        fill: rgba(55, 53, 47, 0.6);
-    }
-
-    .block-color-brown {
-        color: rgb(100, 71, 58);
-        fill: rgb(100, 71, 58);
-    }
-
-    .block-color-orange {
-        color: rgb(217, 115, 13);
-        fill: rgb(217, 115, 13);
-    }
-
-    .block-color-yellow {
-        color: rgb(223, 171, 1);
-        fill: rgb(223, 171, 1);
-    }
-
-    .block-color-teal {
-        color: rgb(15, 123, 108);
-        fill: rgb(15, 123, 108);
-    }
-
-    .block-color-blue {
-        color: rgb(11, 110, 153);
-        fill: rgb(11, 110, 153);
-    }
-
-    .block-color-purple {
-        color: rgb(105, 64, 165);
-        fill: rgb(105, 64, 165);
-    }
-
-    .block-color-pink {
-        color: rgb(173, 26, 114);
-        fill: rgb(173, 26, 114);
-    }
-
-    .block-color-red {
-        color: rgb(224, 62, 62);
-        fill: rgb(224, 62, 62);
-    }
-
-    .block-color-gray_background {
-        background: rgb(235, 236, 237);
-    }
-
-    .block-color-brown_background {
-        background: rgb(233, 229, 227);
-    }
-
-    .block-color-orange_background {
-        background: rgb(250, 235, 221);
-    }
-
-    .block-color-yellow_background {
-        background: rgb(251, 243, 219);
-    }
-
-    .block-color-teal_background {
-        background: rgb(221, 237, 234);
-    }
-
-    .block-color-blue_background {
-        background: rgb(221, 235, 241);
-    }
-
-    .block-color-purple_background {
-        background: rgb(234, 228, 242);
-    }
-
-    .block-color-pink_background {
-        background: rgb(244, 223, 235);
-    }
-
-    .block-color-red_background {
-        background: rgb(251, 228, 228);
-    }
-
-    .checkbox {
-        display: inline-flex;
-        vertical-align: text-bottom;
-        width: 16;
-        height: 16;
-        background-size: 16px;
-        margin-left: 2px;
-        margin-right: 5px;
-    }
-
-    .checkbox-on {
-        background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
-    }
-
-    .checkbox-off {
-        background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
-    }
+    @import "~@/styles/case-study-styles.scss";
 </style>
