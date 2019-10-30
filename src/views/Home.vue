@@ -11,7 +11,7 @@
         <h3 class="subheading">My Recent Work</h3>
       </div>
       <div class="grid-container" v-for="(section, index) in Object.keys(entries)" :key="index">
-        <div class="card" v-for="entry in entries[section]" :key="entry.id" @click="openLink(entry.link)">
+        <div class="card" v-for="entry in entries[section]" :key="entry.id">
           <div class="card-top">
             <img :src="entry.thumbnail" alt="">
           </div>
@@ -20,13 +20,13 @@
             <div class="content">
               <h4>{{entry.title}}</h4>
               <p class="description">{{entry.description}}</p>
-              <a @click="openLink(entry.link)">View Case Study</a>
+              <a v-if="entry.link !== ''" @click="openLink(entry.link)">View Case Study</a>
+              <router-link v-else-if="entry.link == ('doripod' && 'myportfolio')">View Case Study</router-link>
             </div>
           </div>
         </div>
       </div>
     </div>
-
   </div>
 </template>
 
