@@ -9,9 +9,18 @@
                     </div>
                 </div>
                 <div class="aboutme">
-                    <h2>About Me</h2>
+                    <h2>Brief History of Me</h2>
                     <hr>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde perspiciatis aperiam eius possimus? Sapiente qui eum minus eos perferendis soluta dolores, neque dolorum earum natus sunt tenetur deserunt reprehenderit excepturi?</p>
+                    <p>You can call me 🧀. That's what most of friends and colleague call me here.</p>
+                    <h3>2016</h3>
+                    <p>I started out as a front-end web developer back in 2016 where I was developing websites for my father's businesses.</p>
+                    <h3>2016-2018</h3>
+                    <p>I focus more on designing when I went to university and later help designed graphical content for the clubs and also tech communities in KL.
+                    </p>
+                    <h3>2018-2019</h3>
+                    <p>I joined FutureLab as a UX Designer to help build the experience of their online mentorship Saas platform.</p>
+                    <h3>2019-Present</h3>
+                    <p>I'm currently a freelance UI/UX Designer and still design for local tech and design communities in Malaysia.</p>
                 </div>
                 <div class="others">
                     others
@@ -54,6 +63,9 @@
 
 <style lang="scss" scoped>
 @import "~@/styles/_variables.scss";
+h2 {
+    font-size: 1.5rem;
+}
 
     .grid-container {
         display: grid;
@@ -79,6 +91,7 @@
         .picture-container {
             text-align: center;
             margin: 1rem 2rem;
+            padding: 1rem 0;
         }
 
         img {
