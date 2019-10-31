@@ -9,7 +9,7 @@ npm run build
 # navigate into the build output directory
 cd dist
 
-echo 'www.csleong.me' > CNAME
+echo 'csleong.me' > CNAME
 
 git init
 git add -A
