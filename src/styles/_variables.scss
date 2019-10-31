@@ -15,3 +15,13 @@ $green: #15bc64;
 $light-green: #bdefd4;
 $yellow: #f4b400;
 $light-yellow: #ffe7ab;
+
+a {
+    color: $light-blue;
+    position: relative;
+    display: inline-block;
+}
+
+a:hover {
+    color: $blue;
+}
