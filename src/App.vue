@@ -5,7 +5,7 @@
       <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
           <router-link class="navbar-item" to="/">
-            <p>Chee Seng Leong</p>
+            <span>Chee Seng Leong</span>
           </router-link>
 
           <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
@@ -36,8 +36,25 @@
 
     <footer class="footer">
       <div class="content has-text-centered">
+        <span class="social-icons">
+          <a href="" class="icon is-large">
+            <i class="fab fa-facebook-square"></i>
+          </a>
+          <a href="" class="icon is-large">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="" class="icon is-large">
+            <i class="fab fa-dribbble"></i>
+          </a>
+          <a href="" class="icon is-large">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="" class="icon is-large">
+            <i class="fab fa-github"></i>
+          </a>
+        </span>
         <p>
-          Built by Chee Seng Leong with <i class="fas fa-heart"></i>
+          Designed & Built by Chee Seng Leong with <i class="fas fa-heart"></i>
         </p>
       </div>
     </footer>
@@ -67,14 +84,11 @@
 
   .navbar {
     margin: 1rem 0 1rem 0;
-    router-link {
-      font-size: 1.5rem;
-    }
+    font-size: 20px !important;
   }
 
   footer {
     position: absolute;
-    bottom: 0;
     width: 100%;
   }
 </style>

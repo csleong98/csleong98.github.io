@@ -23,14 +23,6 @@
         "thumbnail": "assets/project-thumbnails/disaster-donate-map.png",
         "description": "Designing and building a disaster donate web app in under 24 hours.",
         "link": "https://uxdesign.cc/design-thinking-in-a-hackathon-4bc0806c38"
-      },
-      {
-        "id": "myportfolio",
-        "date": "October 31, 2019",
-        "title": "Building my Portfolio - a UX Case Study",
-        "thumbnail": "assets/project-thumbnails/mcd.png",
-        "description": "The process of me designing and building my design portfolio from scratch.",
-        "link": "myportfolio"
       }
     ]
   }
