@@ -5,7 +5,7 @@
       <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
           <router-link class="navbar-item" to="/">
-            <span>Chee Seng Leong</span>
+            <span>🧀 Chee Seng Leong</span>
           </router-link>
 
           <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
@@ -30,7 +30,7 @@
     </div>
 
 
-    <div class="container">
+    <div class="container" >
       <router-view />
     </div>
 
@@ -74,11 +74,32 @@
       return {
         showNav: false
       }
+    },
+    watch: {
+      '$route' () {
+        this.showNav = false
+      }
     }
   }
 </script>
 
 <style lang="scss">
+@import "~@/styles/_variables.scss";
+
+  @media screen and (max-width: $tablet){
+    .navbar {
+      padding-top: 2rem;
+      margin: 0 !important;
+      position: fixed !important;
+      width: 100%;
+      box-shadow: 0 8px 16px rgba(125, 153, 255, 0.1);
+
+      .navbar-menu {
+        box-shadow: 0 20px 16px rgba(125, 153, 255, 0.1);
+      }
+    }
+  }
+
   #app {
     min-height: 100vh;
     overflow: hidden;

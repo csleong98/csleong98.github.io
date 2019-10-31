@@ -76,8 +76,9 @@
     .grid-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 1fr fr 2fr;
+        grid-template-rows: 1fr 0.5fr 0.5fr;
         grid-row-gap: 1rem;
+        margin-top: 6rem;
         grid-template-areas:
             " profile about "
             " coffee about "
@@ -134,17 +135,15 @@
         grid-area: others;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: auto;
+        grid-template-rows: 1fr;
         grid-gap: 1rem;
         margin: 1rem 2rem;
         grid-template-areas:
-            " . . . "
             " learnings community projects ";
         @media screen and (max-width: $large-phones){
             grid-template-columns: 1fr;
             grid-template-rows: 30px, repeat(3, 1fr);
             grid-template-areas:
-            " . " 
             " learnings "
             " community "
             " projects ";
