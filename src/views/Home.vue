@@ -2,8 +2,8 @@
   <div class="home">
     <div class="container">
       <div class="header">
-        <p class="header-text-1">Hi there. I'm a UI/UX Designer</p>
-        <p class="header-text-2">Exploring the design spaces around me everyday.</p>
+        <p class="header-text-1">👨‍🎨 Hi there. I'm a UI/UX Designer</p>
+        <p class="header-text-2">Passionate in designing for local tech and design communities.</p>
         <p class="header-text-3">Previously designed in <a href="https://futurelab.my" target="_blank">FutureLab</a></p>
         <img class="header-image" src="assets/astronaut.svg" alt="">
       </div>

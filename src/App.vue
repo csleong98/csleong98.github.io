@@ -37,20 +37,26 @@
     <footer class="footer">
       <div class="content has-text-centered">
         <span class="social-icons">
-          <a href="" class="icon is-large">
+          <a href="https://www.facebook.com/cheesengleong" class="icon is-large" target="_blank">
             <i class="fab fa-facebook-square"></i>
           </a>
-          <a href="" class="icon is-large">
+          <a href="https://www.linkedin.com/in/cheesengleong/" class="icon is-large" target="_blank">
             <i class="fab fa-linkedin"></i>
           </a>
-          <a href="" class="icon is-large">
+          <a href="https://dribbble.com/csleong98" class="icon is-large" target="_blank">
             <i class="fab fa-dribbble"></i>
           </a>
-          <a href="" class="icon is-large">
+          <a href="https://www.behance.net/csleong" class="icon is-large" target="_blank">
+            <i class="fab fa-behance"></i>
+          </a>
+          <a href="https://twitter.com/CheeSengLeong" class="icon is-large" target="_blank">
             <i class="fab fa-twitter"></i>
           </a>
-          <a href="" class="icon is-large">
+          <a href="https://github.com/csleong98" class="icon is-large" target="_blank">
             <i class="fab fa-github"></i>
+          </a>
+          <a href="https://medium.com/@macintoshleong" class="icon is-large" target="_blank">
+            <i class="fab fa-medium"></i>
           </a>
         </span>
         <p>
@@ -89,7 +95,10 @@
 
   footer {
     position: absolute;
+    bottom: 0;
     width: 100%;
+    height: 2.5rem;
+    padding: 2rem 0;
   }
 </style>
 

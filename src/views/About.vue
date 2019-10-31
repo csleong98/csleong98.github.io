@@ -3,17 +3,15 @@
         <div class="container">
             <div class="grid-container">
                 <div class="profile">
-                    <div class="picture-container">
-                        <img src="assets/me.jpg" alt="" class="is-fullwidth">
-                        <p>Me in Hangzhou, West Lake</p>
-                    </div>
+                    <img src="assets/me.jpg" alt="">
+                    <p>Me in Hangzhou, West Lake</p>
                 </div>
                 <div class="aboutme">
                     <h2>Brief History of Me</h2>
                     <hr>
-                    <p>You can call me 🧀. That's what most of friends and colleague call me here.</p>
+                    <p>You can call me 🧀. That's what most of my friends and colleague call me here.</p>
                     <h3 class="year">2016</h3>
-                    <p>I started out as a front-end web developer back in 2016 where I was developing websites for my father's businesses.</p>
+                    <p>I started out as a front-end web developer where I was developing websites for my father's businesses.</p>
                     <h3 class="year">2016-2018</h3>
                     <p>I focus more on designing when I went to university and later help designed graphical content for the clubs and also tech communities in KL.
                     </p>
@@ -21,6 +19,11 @@
                     <p>I joined FutureLab as a UX Designer to help build the experience of their online mentorship Saas platform.</p>
                     <h3 class="year">2019-Present</h3>
                     <p>I'm currently a freelance UI/UX Designer and still design for local tech and design communities in Malaysia.</p>
+                </div>
+                <div class="coffee">
+                    <h2>👋 Hey there! I'm actively looking for opportunities in Product Design</h2>
+                    <p>View my <a href="assets/resume-LeongCheeSeng.pdf" target="_blank"><strong>resume</strong></a></p>
+                    <p>Drop me a mail at <a href="mailto:macintoshleong@gmail.com"><strong>macintoshleong@gmail.com</strong></a></p>
                 </div>
                 <div class="others">
                     <div class="learnings other">
@@ -36,16 +39,17 @@
                         <ul>
                             <li>GDG Cloud KL</li>
                             <li>Sketch Meetup KL</li>
-                            <li>Hackathons</li>
+                            <li>APUSDS</li>
+                            <li>UM AppClub</li>
                         </ul>
                     </div>
                     <div class="projects other">
-                        <h2>👾 Projects I'm working on</h2>
+                        <h2>🕹️ Hobbies</h2>
                         <ul>
-                            <li>1stDayHack</li>
-                            <li>Cloud Devfest KL 2019</li>
-                            <li>FutureHack 2020</li>
-                            <li>Building my portfolio</li>
+                            <li>Journaling</li>
+                            <li>Painting</li>
+                            <li>Organising & Participating Hackathons</li>
+                            <li>Walking</li>
                         </ul>
                     </div>
                 </div>
@@ -62,24 +66,28 @@
 
 <style lang="scss" scoped>
 @import "~@/styles/_variables.scss";
-h2 {
-    font-size: 1.5rem;
+
+.profile,
+.aboutme,
+.coffee {
+    margin: 1rem 2rem;
 }
 
     .grid-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr fr 2fr;
         grid-row-gap: 1rem;
         grid-template-areas:
             " profile about "
-            " profile about "
+            " coffee about "
             " others others ";
         @media screen and (max-width: $large-phones){
             grid-template-columns: 1fr;
             grid-template-rows: auto;
             grid-template-areas: 
             " profile "
+            " coffee "
             " about "
             " others "
         }
@@ -87,22 +95,18 @@ h2 {
 
     .profile {
         grid-area: profile;
-    
-        .picture-container {
-            text-align: center;
-            margin: 1rem 2rem;
-            padding: 1rem 0;
-        }
+        text-align: center;
+        padding: 1rem 0;
 
         img {
             border-radius: 10px;
             width: 250px;
             height: 250px;
         }
+
     }
 
     .aboutme {
-        margin: 1rem 2rem;
         grid-area: about;
         .year {
             position: relative;
@@ -120,6 +124,10 @@ h2 {
             left: 0;
 
         }
+    }
+
+    .coffee {
+        grid-area: coffee;
     }
 
     .others {
