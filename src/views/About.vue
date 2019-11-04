@@ -9,19 +9,19 @@
                 <div class="aboutme">
                     <h2>Brief History of Me</h2>
                     <hr>
-                    <p>You can call me 🧀. That's what most of my friends and colleague call me here.</p>
+                    <p>You can call me 🧀. That's what most of my friends and colleagues call me here.</p>
                     <h3 class="year">2016</h3>
                     <p>I started out as a front-end web developer where I was developing websites for my father's businesses.</p>
-                    <h3 class="year">2016-2018</h3>
+                    <h3 class="year">2016 - 2018</h3>
                     <p>I focus more on designing when I went to university and later help designed graphical content for the clubs and also tech communities in KL.
                     </p>
-                    <h3 class="year">2018-2019</h3>
-                    <p>I joined FutureLab as a UX Designer to help build the experience of their online mentorship Saas platform.</p>
-                    <h3 class="year">2019-Present</h3>
+                    <h3 class="year">2018 - 2019</h3>
+                    <p>I joined FutureLab as a UX Designer to help build the experience of their online mentorship SaaS platform.</p>
+                    <h3 class="year">2019 - Present</h3>
                     <p>I'm currently a freelance UI/UX Designer and still design for local tech and design communities in Malaysia.</p>
                 </div>
                 <div class="coffee">
-                    <h2>👋 Hey there! I'm actively looking for opportunities in Product Design</h2>
+                    <h2>👋 Hey there! I'm actively looking for opportunities in both Interaction Design</h2>
                     <p>View my <a href="assets/resume-LeongCheeSeng.pdf" target="_blank"><strong>resume</strong></a></p>
                     <p>Drop me a mail at <a href="mailto:macintoshleong@gmail.com"><strong>macintoshleong@gmail.com</strong></a></p>
                 </div>
@@ -48,7 +48,7 @@
                         <ul>
                             <li>Journaling</li>
                             <li>Painting</li>
-                            <li>Organising & Participating Hackathons</li>
+                            <li>Organising & Participating in Hackathons</li>
                             <li>Walking</li>
                         </ul>
                     </div>
