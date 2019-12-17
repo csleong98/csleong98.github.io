@@ -14,15 +14,13 @@
         " image "
         " text1 "
         " text2 "
-        " text3 ";
     }
 
     grid-gap: 1rem;
     margin: 4rem auto;
     width: 90%;
     grid-template-areas: " text1 image "
-    " text2 image "
-    " text3 image ";
+    " text2 image ";
   }
 
   .header-text-2 {
@@ -49,7 +47,7 @@
 // Projects Area
   .card-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 
     @media screen and (max-width: $large-phones) {
       grid-template-columns: repeat(1, 1fr);

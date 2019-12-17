@@ -20,8 +20,7 @@
             <div class="content">
               <h4>{{entry.title}}</h4>
               <p class="description">{{entry.description}}</p>
-              <a v-if="entry.link !== ''" @click="openLink(entry.link)">View Case Study</a>
-              <router-link v-else-if="entry.link == myportfolio">View Case Study</router-link>
+              <a @click="openLink(entry.link)">View Case Study</a>
             </div>
           </div>
         </div>

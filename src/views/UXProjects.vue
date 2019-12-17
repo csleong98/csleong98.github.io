@@ -2,8 +2,8 @@
   <div class="uxprojects">
     <div class="container">
       <div class="header">
-        <p class="header-text-1">Coding</p>
-        <p class="header-text-2">Combining Art & Coding to build digital products</p>
+        <p class="header-text-1">UI/UX Projects</p>
+        <p class="header-text-2">How I use design to solve problems.</p>
         <img class="header-image" src="assets/astronaut.svg" alt="">
       </div>
       <div>
@@ -48,6 +48,6 @@
   };
 </script>
 
-<style lang="scss">
-//   @import "~@/styles/all-projects.scss";
+<style lang="scss" scoped>
+  @import "~@/styles/all-projects.scss";
 </style>

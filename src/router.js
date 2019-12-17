@@ -1,6 +1,7 @@
 import Vue from "vue";
 import Router from "vue-router";
 import Home from "./views/Home.vue";
+import UXProjects from "./views/UXProjects.vue";
 import About from "./views/About.vue";
 import Illustrations from "./views/Illustrations.vue";
 import Coding from "./views/Coding.vue";
@@ -16,6 +17,11 @@ export default new Router({
             path: "/",
             name: "home",
             component: Home
+        },
+        {
+            path: "/projects",
+            name: "uxprojects",
+            component: UXProjects
         },
         {
             path: "/illustrations",

@@ -44,5 +44,5 @@
 </script>
 
 <style lang="scss">
-  @import "~@/styles/illustrations.scss";
+  // @import "~@/styles/illustrations.scss";
 </style>
