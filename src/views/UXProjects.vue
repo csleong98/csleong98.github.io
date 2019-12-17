@@ -21,7 +21,7 @@
               <h4>{{entry.title}}</h4>
               <p class="description">{{entry.description}}</p>
               <a v-if="entry.status == 'In Progress'" @click="openLink(entry.link)">View Updates</a>
-              <a v-else-if="entry.status == 'Done'">View Case Study</a>
+              <a v-else-if="entry.status == 'Done'" @click="openLink(entry.link)">View Case Study</a>
             </div>
           </div>
         </div>
@@ -52,6 +52,6 @@
   @import "~@/styles/all-projects.scss";
 
 .tag {
-    background-color: $light-yellow !important;
+    background-color: $yellow !important;
 }
 </style>

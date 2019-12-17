@@ -7,7 +7,7 @@
         "thumbnail": "assets/project-thumbnails/portfolio.png",
         "description": "The process of how I design and build my portfolio site you are seeing now",
         "status": "Done",
-        "link": "#"
+        "link": "https://www.notion.so/csleong98/The-Design-of-My-Portfolio-2011621ce80c47b2b01d4329757f4422"
       },
       {
         "id": "alphaus-cloud",
@@ -16,7 +16,7 @@
         "thumbnail": "assets/project-thumbnails/portfolio.png",
         "description": "Building a design system for a multi-cloud cost management platform",
         "status": "In Progress",
-        "link": "#"
+        "link": "https://www.notion.so/csleong98/Alphaus-Cloud-Design-cf7a9a6046a449d78812f54e130e1f66"
       },
       {
         "id": "emotion",
@@ -25,7 +25,7 @@
         "thumbnail": "assets/project-thumbnails/portfolio.png",
         "description": "Process of designing and building a mood tracking web app",
         "status": "In Progress",
-        "link": "#"
+        "link": "https://www.notion.so/csleong98/Emotion-Web-App-73999353312749c78cdfefe8560c4e3f"
       },
       {
         "id": "mcd",
