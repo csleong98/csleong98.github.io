@@ -3,7 +3,7 @@
     <div class="container">
       <div class="header">
         <p class="header-text-1">UI/UX Projects</p>
-        <p class="header-text-2">How I use design to solve problems.</p>
+        <p class="header-text-2">Solving problems with designs.</p>
         <img class="header-image" src="assets/astronaut.svg" alt="">
       </div>
       <div>
@@ -50,4 +50,8 @@
 
 <style lang="scss" scoped>
   @import "~@/styles/all-projects.scss";
+
+.tag {
+    background-color: $light-yellow !important;
+}
 </style>

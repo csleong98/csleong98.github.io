@@ -1,33 +1,6 @@
 {
     "2019": [
       {
-        "id": "mcd",
-        "date": "September 9, 2019",
-        "title": "🍔 McDonald's Kiosk Ordering System - a UX Case Study",
-        "thumbnail": "assets/project-thumbnails/mcd.png",
-        "description": "Explore my design process of re-designing McDonald's digital ordering system.",
-        "status": "Done",
-        "link": "https://uxdesign.cc/mcdonalds-kiosk-ordering-system-ui-ux-case-study-fe7b3693f12c"
-      },
-      {
-        "id": "doripod",
-        "date": "October 25, 2019",
-        "title": "🐟 Doripod Rewards App Redesign - a UI/UX Case Study",
-        "thumbnail": "assets/project-thumbnails/doripod.png",
-        "description": "Reward system app that enables customer to collect points/stamps to redeem vouchers from merchants",
-        "status": "Done",
-        "link": "https://medium.com/@macintoshleong/doripod-a-ui-ux-case-study-2fb89dd2f467"
-      },
-      {
-        "id": "disaster-donate-map",
-        "date": "October 29, 2019",
-        "title": "🌏 Design Thinking & Process in a Hackathon - a UX Case Study",
-        "thumbnail": "assets/project-thumbnails/disaster-donate-map.png",
-        "description": "Designing and building a disaster donate web app in under 24 hours.",
-        "status": "Done",
-        "link": "https://uxdesign.cc/design-thinking-in-a-hackathon-4bc0806c38"
-      },
-      {
         "id": "myportfolio",
         "date": "December 17, 2019",
         "title": "✏️ The Design of My Portfolio",
@@ -53,6 +26,33 @@
         "description": "Process of designing and building a mood tracking web app",
         "status": "In Progress",
         "link": "#"
+      },
+      {
+        "id": "mcd",
+        "date": "September 9, 2019",
+        "title": "🍔 McDonald's Kiosk Ordering System - a UX Case Study",
+        "thumbnail": "assets/project-thumbnails/mcd.png",
+        "description": "Explore my design process of re-designing McDonald's digital ordering system.",
+        "status": "Done",
+        "link": "https://uxdesign.cc/mcdonalds-kiosk-ordering-system-ui-ux-case-study-fe7b3693f12c"
+      },
+      {
+        "id": "doripod",
+        "date": "October 25, 2019",
+        "title": "🐟 Doripod Rewards App Redesign - a UI/UX Case Study",
+        "thumbnail": "assets/project-thumbnails/doripod.png",
+        "description": "Reward system app that enables customer to collect points/stamps to redeem vouchers from merchants",
+        "status": "Done",
+        "link": "https://medium.com/@macintoshleong/doripod-a-ui-ux-case-study-2fb89dd2f467"
+      },
+      {
+        "id": "disaster-donate-map",
+        "date": "October 29, 2019",
+        "title": "🌏 Design Thinking & Process in a Hackathon - a UX Case Study",
+        "thumbnail": "assets/project-thumbnails/disaster-donate-map.png",
+        "description": "Designing and building a disaster donate web app in under 24 hours.",
+        "status": "Done",
+        "link": "https://uxdesign.cc/design-thinking-in-a-hackathon-4bc0806c38"
       }
     ]
   }

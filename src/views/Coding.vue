@@ -3,7 +3,7 @@
     <div class="container">
       <div class="header">
         <p class="header-text-1">Coding</p>
-        <p class="header-text-2">Combining Art & Coding to build digital products</p>
+        <p class="header-text-2">Solving problems with art & science.</p>
         <img class="header-image" src="assets/astronaut.svg" alt="">
       </div>
       <div>
@@ -17,11 +17,10 @@
 
           <div class="card-content">
             <div class="content">
-              <p class="tag" v-if="entry.status == 'In Progress'">In Progress</p>
+              <p class="tag">{{entry.status}}</p>
               <h4>{{entry.title}}</h4>
               <p class="description">{{entry.description}}</p>
-              <a v-if="entry.status == 'In Progress'" @click="openLink(entry.link)">View Updates</a>
-              <a v-else-if="entry.status == 'Done'">View Case Study</a>
+              <a @click="openLink(entry.link)">View Project</a>
             </div>
           </div>
         </div>
@@ -31,13 +30,13 @@
 </template>
 
 <script>
-  import allProjects from '@/statics/data/all-projects.json'
+  import codingProjects from '@/statics/data/coding.json'
 
   export default {
     name: "uxprojects",
     computed: {
       entries() {
-        return allProjects
+        return codingProjects
       }
     },
     methods: {
@@ -50,4 +49,8 @@
 
 <style lang="scss">
 //   @import "~@/styles/all-projects.scss";
+.tag {
+    background-color: $blue !important;
+    color: white !important;
+}
 </style>

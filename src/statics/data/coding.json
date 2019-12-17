@@ -1,0 +1,49 @@
+{
+    "2019": [
+      {
+        "id": "futurehack2018",
+        "date": "April 14, 2018",
+        "title": "FutureHack Starters Hackathon 2018 Landing page",
+        "thumbnail": "assets/coding-thumbnails/futurehack2018.png",
+        "description": "Designed and built a landing page for a student only starters hackathon.",
+        "status": "Personal",
+        "link": "https://futurehackmy.github.io/"
+      },
+      {
+        "id": "parallax",
+        "date": "July 25, 2019",
+        "title": "Illustration Parallax Effect",
+        "thumbnail": "assets/coding-thumbnails/parallax.png",
+        "description": "A simple web app that uses device Gyro and drag(mouse) to produce parallax effect of the drawn illustration",
+        "status": "Personal",
+        "link": "https://csleong98.github.io/parallax/"
+      },
+      {
+        "id": "closer-web",
+        "date": "April 29, 2019",
+        "title": "Closer Web",
+        "thumbnail": "assets/coding-thumbnails/closer-web.png",
+        "description": "A Job Platform that trains underskilled or unemployed people to be skilled in tech and have them work on outsource projects from companies.",
+        "status": "Hackathon",
+        "link": "https://github.com/csleong98/closer-web"
+      },
+      {
+        "id": "disaster-donate-map",
+        "date": "October 29, 2019",
+        "title": "Disaster Donate Map",
+        "thumbnail": "assets/project-thumbnails/disaster-donate-map.png",
+        "description": "A web app that enable item donation and visualisation on natural disasters around the world and the population affected.",
+        "status": "Hackathon",
+        "link": "https://github.com/csleong98/elgoog"
+      },
+      {
+        "id": "nasa-space-apps-2018",
+        "date": "October 29, 2018",
+        "title": "Skywatchers",
+        "thumbnail": "assets/coding-thumbnails/skywatcher.png",
+        "description": "A web app that enables people to gather information on when is the latest rocket launches and how they can get to enjoy the view.",
+        "status": "Hackathon",
+        "link": "https://2018.spaceappschallenge.org/challenges/can-you-build/when-next-rocket-launch/teams/spacey/project"
+      }
+    ]
+  }
