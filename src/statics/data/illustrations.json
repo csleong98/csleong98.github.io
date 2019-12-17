@@ -1,0 +1,22 @@
+{
+    "2019": [
+      {
+        "id": "mcd",
+        "date": "September 9, 2019",
+        "title": "Software Avatar Designs",
+        "thumbnail": "assets/project-thumbnails/mcd.png"
+      },
+      {
+        "id": "doripod",
+        "date": "October 25, 2019",
+        "title": "Google Cloud NEXT Extended KL 2019",
+        "thumbnail": "assets/project-thumbnails/doripod.png"
+      },
+      {
+        "id": "disaster-donate-map",
+        "date": "October 29, 2019",
+        "title": "ZoolyKid App Animal Illustrations",
+        "thumbnail": "assets/project-thumbnails/disaster-donate-map.png"
+      }
+    ]
+  }

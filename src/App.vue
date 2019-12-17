@@ -19,7 +19,16 @@
         <div id="navbarBasicExample" class="navbar-menu" :class="{ 'is-active': showNav }">
           <div class="navbar-end">
             <router-link to="/" class="navbar-item">
-              UX Projects
+              UI/UX Projects
+            </router-link>
+            <router-link to="/illustrations" class="navbar-item">
+              Illustrations
+            </router-link>
+            <router-link to="/coding" class="navbar-item">
+              Coding
+            </router-link>
+            <router-link to="/community" class="navbar-item">
+              Community
             </router-link>
             <router-link to="/about" class="navbar-item">
               About
@@ -28,7 +37,6 @@
         </div>
       </nav>
     </div>
-
 
     <div class="container" >
       <router-view />

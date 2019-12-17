@@ -2,6 +2,9 @@ import Vue from "vue";
 import Router from "vue-router";
 import Home from "./views/Home.vue";
 import About from "./views/About.vue";
+import Illustrations from "./views/Illustrations.vue";
+import Coding from "./views/Coding.vue";
+import Community from "./views/Community.vue";
 
 Vue.use(Router)
 
@@ -13,6 +16,21 @@ export default new Router({
             path: "/",
             name: "home",
             component: Home
+        },
+        {
+            path: "/illustrations",
+            name: "illustrations",
+            component: Illustrations
+        },
+        {
+            path: "/coding",
+            name: "coding",
+            component: Coding
+        },
+        {
+            path: "/community",
+            name: "community",
+            component: Community
         },
         {
             path: "/about",
