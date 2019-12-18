@@ -21,7 +21,7 @@
                     <p>I'm currently a freelance UI/UX Designer and still design for local tech and design communities in Malaysia.</p>
                 </div>
                 <div class="coffee">
-                    <h2>👋 Hey there! I'm actively looking for opportunities in both Interaction Design</h2>
+                    <h2>👋 Hey there! I'm actively looking for opportunities in both Interaction Design and Product Design</h2>
                     <p>View my <a href="assets/resume-LeongCheeSeng.pdf" target="_blank"><strong>resume</strong></a></p>
                     <p>Drop me a mail at <a href="mailto:macintoshleong@gmail.com"><strong>macintoshleong@gmail.com</strong></a></p>
                 </div>
