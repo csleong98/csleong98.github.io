@@ -3,14 +3,14 @@
     <div class="container">
       <div class="header">
         <p class="header-text-1">Coding</p>
-        <p class="header-text-2">Solving problems with art & science.</p>
-        <img class="header-image" src="assets/astronaut.svg" alt="">
+        <p class="header-text-2">Understanding the value of design by building it.</p>
+        <img class="header-image" src="assets/illustrations/coding-illustration.svg" alt="">
       </div>
       <div>
         <h3 class="subheading">All of my projects</h3>
       </div>
       <div class="card-container" v-for="(section, index) in Object.keys(entries)" :key="index">
-        <div class="card" v-for="entry in entries[section]" :key="entry.id">
+        <div class="card" v-for="entry in entries[section]" :key="entry.id" @click="openLink(entry.link)">
           <div class="card-top">
             <img :src="entry.thumbnail" alt="">
           </div>
@@ -48,7 +48,7 @@
 </script>
 
 <style lang="scss">
-//   @import "~@/styles/all-projects.scss";
+  @import "~@/styles/home.scss";
 .tag {
     background-color: $blue !important;
     color: white !important;

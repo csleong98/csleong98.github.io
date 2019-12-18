@@ -1,20 +1,20 @@
 {
     "2019": [
       {
-        "id": "myportfolio",
-        "date": "December 17, 2019",
-        "title": "✏️ The Design of My Portfolio",
-        "thumbnail": "assets/project-thumbnails/portfolio.png",
-        "description": "The process of how I design and build my portfolio site you are seeing now",
+        "id": "disaster-donate-map",
+        "date": "October 29, 2019",
+        "title": "🌏 Design Thinking & Process in a Hackathon - a UX Case Study",
+        "thumbnail": "assets/project-thumbnails/disaster-donate-map.png",
+        "description": "Designing and building a disaster donate web app in under 24 hours.",
         "status": "Done",
-        "link": "https://www.notion.so/csleong98/The-Design-of-My-Portfolio-2011621ce80c47b2b01d4329757f4422"
+        "link": "https://uxdesign.cc/design-thinking-in-a-hackathon-4bc0806c38"
       },
       {
         "id": "alphaus-cloud",
         "date": "December 17, 2019",
-        "title": "☁️ Alphaus Cloud Design System",
-        "thumbnail": "assets/project-thumbnails/portfolio.png",
-        "description": "Building a design system for a multi-cloud cost management platform",
+        "title": "☁️ Alphaus Cloud Cost Management Platform",
+        "thumbnail": "assets/project-thumbnails/ripple.png",
+        "description": "Designig a multi-cloud cost management platform",
         "status": "In Progress",
         "link": "https://www.notion.so/csleong98/Alphaus-Cloud-Design-cf7a9a6046a449d78812f54e130e1f66"
       },
@@ -22,7 +22,7 @@
         "id": "emotion",
         "date": "December 17, 2019",
         "title": "😄 Emotion Web App",
-        "thumbnail": "assets/project-thumbnails/portfolio.png",
+        "thumbnail": "assets/project-thumbnails/emotion.png",
         "description": "Process of designing and building a mood tracking web app",
         "status": "In Progress",
         "link": "https://www.notion.so/csleong98/Emotion-Web-App-73999353312749c78cdfefe8560c4e3f"
@@ -46,13 +46,13 @@
         "link": "https://medium.com/@macintoshleong/doripod-a-ui-ux-case-study-2fb89dd2f467"
       },
       {
-        "id": "disaster-donate-map",
-        "date": "October 29, 2019",
-        "title": "🌏 Design Thinking & Process in a Hackathon - a UX Case Study",
-        "thumbnail": "assets/project-thumbnails/disaster-donate-map.png",
-        "description": "Designing and building a disaster donate web app in under 24 hours.",
+        "id": "myportfolio",
+        "date": "December 17, 2019",
+        "title": "✏️ The Design & Development of My Portfolio",
+        "thumbnail": "assets/project-thumbnails/portfolio.png",
+        "description": "The process of how I design and build my portfolio site that you are seeing now",
         "status": "Done",
-        "link": "https://uxdesign.cc/design-thinking-in-a-hackathon-4bc0806c38"
+        "link": "https://medium.com/@macintoshleong/%EF%B8%8F-the-design-and-development-of-my-portfolio-case-study-80e3fa950774"
       }
     ]
   }

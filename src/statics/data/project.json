@@ -17,12 +17,12 @@
         "link": "https://medium.com/@macintoshleong/doripod-a-ui-ux-case-study-2fb89dd2f467"
       },
       {
-        "id": "disaster-donate-map",
-        "date": "October 29, 2019",
-        "title": "🌏 Design Thinking & Process in a Hackathon - a UX Case Study",
-        "thumbnail": "assets/project-thumbnails/disaster-donate-map.png",
-        "description": "Designing and building a disaster donate web app in under 24 hours.",
-        "link": "https://uxdesign.cc/design-thinking-in-a-hackathon-4bc0806c38"
+        "id": "myportfolio",
+        "date": "December 17, 2019",
+        "title": "✏️ The Design & Development of My Portfolio",
+        "thumbnail": "assets/project-thumbnails/portfolio.png",
+        "description": "The process of how I design and build my portfolio site that you are seeing now",
+        "link": "https://medium.com/@macintoshleong/%EF%B8%8F-the-design-and-development-of-my-portfolio-case-study-80e3fa950774"
       }
     ]
   }
