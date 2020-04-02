@@ -18,7 +18,7 @@
                     <h3 class="year">2018 - 2019</h3>
                     <p>I joined FutureLab as a UX Designer to help build the experience of their online mentorship SaaS platform.</p>
                     <h3 class="year">2019 - Present</h3>
-                    <p>I'm currently a freelance UI/UX Designer and still design for local tech and design communities in Malaysia.</p>
+                    <p>Currently building and managing design system for Alphaus Cloud. I'm also the co-organiser for Figma User Group KL.</p>
                 </div>
                 <div class="coffee">
                     <h2>👋 Hey there! I'm actively looking for opportunities in both Interaction Design and Product Design</h2>
@@ -39,6 +39,7 @@
                         <ul>
                             <li>GDG Cloud KL</li>
                             <li>Sketch Meetup KL</li>
+                            <li>Figma User Group KL</li>
                             <li>APUSDS</li>
                             <li>UM AppClub</li>
                         </ul>

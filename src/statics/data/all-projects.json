@@ -53,6 +53,14 @@
         "description": "The process of how I design and build my portfolio site that you are seeing now",
         "status": "Done",
         "link": "https://medium.com/@macintoshleong/%EF%B8%8F-the-design-and-development-of-my-portfolio-case-study-80e3fa950774"
+      },
+      {
+        "id": "messengerAR",
+        "date": "March 31, 2020",
+        "title": " Redesigning the AR Games Experience in Facebook Messenger - a UI/UX Case Study",
+        "thumbnail": "assets/project-thumbnails/messenger.png",
+        "description": "Redesigning Messenger's AR Games experience",
+        "link": "https://medium.com/@macintoshleong/redesigning-the-ar-games-experience-in-facebook-messenger-a-ui-ux-case-study-39b6f8d2f262"
       }
     ]
   }
