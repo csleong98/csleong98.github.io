@@ -19,15 +19,6 @@
         "link": "https://www.notion.so/csleong98/Alphaus-Cloud-Design-cf7a9a6046a449d78812f54e130e1f66"
       },
       {
-        "id": "emotion",
-        "date": "December 17, 2019",
-        "title": "😄 Emotion Web App",
-        "thumbnail": "assets/project-thumbnails/emotion.png",
-        "description": "Process of designing and building a mood tracking web app",
-        "status": "In Progress",
-        "link": "https://www.notion.so/csleong98/Emotion-Web-App-73999353312749c78cdfefe8560c4e3f"
-      },
-      {
         "id": "mcd",
         "date": "September 9, 2019",
         "title": "🍔 McDonald's Kiosk Ordering System - a UX Case Study",
@@ -60,6 +51,7 @@
         "title": " Redesigning the AR Games Experience in Facebook Messenger - a UI/UX Case Study",
         "thumbnail": "assets/project-thumbnails/messenger.png",
         "description": "Redesigning Messenger's AR Games experience",
+        "status": "Done",
         "link": "https://medium.com/@macintoshleong/redesigning-the-ar-games-experience-in-facebook-messenger-a-ui-ux-case-study-39b6f8d2f262"
       }
     ]
